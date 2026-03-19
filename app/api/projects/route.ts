@@ -1,7 +1,10 @@
 import { NextResponse } from "next/server";
+import { requireSupportedStorageMode } from "@/lib/deployment";
 import { createProject, listProjects, updateProject } from "@/lib/db/repository";
+import { env } from "@/lib/env";
 import { processProject } from "@/lib/ai/pipeline/process-project";
 import { saveUpload } from "@/lib/storage/local-storage";
+import { saveUploadToVercelBlob } from "@/lib/storage/vercel-blob-storage";
 import { createProjectSchema } from "@/lib/validators/project";
 import { log } from "@/lib/logger";
 
@@ -12,6 +15,7 @@ export async function GET() {
 
 export async function POST(request: Request) {
   try {
+    requireSupportedStorageMode();
     const formData = await request.formData();
     const sourceType = String(formData.get("sourceType") ?? "youtube");
     const title = String(formData.get("title") ?? "");
@@ -36,7 +40,10 @@ export async function POST(request: Request) {
     const file = formData.get("file");
 
     if (file instanceof File) {
-      const saved = await saveUpload(file);
+      const saved =
+        env.storageMode === "vercel-blob"
+          ? await saveUploadToVercelBlob(file)
+          : await saveUpload(file);
       storagePath = saved.storagePath;
       fileName = saved.fileName;
       durationSec = saved.durationSec;

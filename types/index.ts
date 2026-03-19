@@ -128,6 +128,14 @@ export interface ProcessingJob {
   updatedAt: string;
 }
 
+export interface StoredAsset {
+  fileName: string;
+  storagePath: string;
+  durationSec: number;
+  width?: number;
+  height?: number;
+}
+
 export interface FeatureFlags {
   teamWorkspaces: boolean;
   brandTemplates: boolean;

@@ -1,13 +1,14 @@
 import { promises as fs } from "fs";
 import path from "path";
 import { env } from "@/lib/env";
+import type { StoredAsset } from "@/types";
 import { createId } from "@/lib/utils";
 import { probeVideo } from "@/lib/video/probe";
 
 const allowedMimeTypes = new Set(["video/mp4", "video/m4v", "video/quicktime"]);
 const allowedExtensions = new Set(["mp4", "m4v", "mov"]);
 
-export async function saveUpload(file: File) {
+export async function saveUpload(file: File): Promise<StoredAsset> {
   const extension = file.name.split(".").pop()?.toLowerCase() ?? "mp4";
 
   if (!allowedMimeTypes.has(file.type) && !allowedExtensions.has(extension)) {

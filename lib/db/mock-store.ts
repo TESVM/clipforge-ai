@@ -1,5 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
+import { requirePersistentDatabase } from "@/lib/deployment";
 import type { ProcessingJob, Project, UserProfile } from "@/types";
 import { createMockJobs, createMockProject } from "@/lib/mock/seed-data";
 
@@ -45,11 +46,13 @@ async function ensureStore() {
 }
 
 export async function readMockDb(): Promise<MockDatabase> {
+  requirePersistentDatabase();
   await ensureStore();
   const raw = await fs.readFile(dbPath, "utf8");
   return JSON.parse(raw) as MockDatabase;
 }
 
 export async function writeMockDb(data: MockDatabase) {
+  requirePersistentDatabase();
   await fs.writeFile(dbPath, JSON.stringify(data, null, 2), "utf8");
 }

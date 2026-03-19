@@ -199,6 +199,51 @@ For a real deployment, you should replace the local dev choices with production 
 - local FFmpeg job execution -> worker container or media service
 - demo credentials auth -> Clerk or full NextAuth + Prisma adapter
 
+## Deploy on Vercel
+
+This repository is now prepared for a Vercel deployment path, but you need production services behind it.
+
+### Required for Vercel
+
+- PostgreSQL database
+- Prisma enabled
+- Vercel Blob enabled
+- correct `NEXTAUTH_URL`
+
+### Recommended Vercel env vars
+
+Use `.env.vercel.example` as the template:
+
+```env
+DATABASE_URL="postgresql://..."
+NEXTAUTH_URL="https://your-domain.vercel.app"
+NEXTAUTH_SECRET="replace-with-a-long-random-string"
+DEMO_USER_EMAIL="demo@clipforge.ai"
+DEMO_USER_PASSWORD="Demo123!"
+USE_PRISMA="true"
+STORAGE_MODE="vercel-blob"
+EXPORT_EXECUTION_MODE="inline"
+BLOB_READ_WRITE_TOKEN="vercel_blob_rw_..."
+```
+
+### Vercel deployment flow
+
+1. Import the GitHub repo into Vercel.
+2. Add the environment variables above.
+3. Provision a PostgreSQL database.
+4. Run Prisma generate/migrate in your deployment workflow.
+5. Enable Vercel Blob and add `BLOB_READ_WRITE_TOKEN`.
+6. Deploy.
+
+### Important Vercel note
+
+The current Vercel mode uses:
+- Prisma for persistent data
+- Vercel Blob for uploaded and rendered media
+- inline export execution for short demo exports
+
+For real production scale, move export rendering into an external worker service instead of running FFmpeg inside the request lifecycle.
+
 ## Suggested Production Providers
 
 - Transcription: OpenAI Whisper, Deepgram, AssemblyAI

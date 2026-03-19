@@ -1,9 +1,12 @@
 import { promises as fs } from "fs";
 import path from "path";
 import { spawn } from "child_process";
+import os from "os";
 import ffmpegPath from "ffmpeg-static";
+import { env } from "@/lib/env";
 import type { GeneratedClip, Project } from "@/types";
 import { captionTextFromTokens } from "@/lib/video/captions";
+import { uploadRenderedAssetToVercelBlob } from "@/lib/storage/vercel-blob-storage";
 import { createId } from "@/lib/utils";
 
 const publicDir = path.join(process.cwd(), "public");
@@ -24,6 +27,26 @@ function getOutputDimensions(aspectRatio: GeneratedClip["aspectRatio"]) {
 function toAbsolutePublicPath(assetPath: string) {
   const clean = assetPath.startsWith("/") ? assetPath.slice(1) : assetPath;
   return path.join(publicDir, clean);
+}
+
+async function materializeInput(project: Project) {
+  const sourcePath = project.sourceVideo?.storagePath;
+  if (!sourcePath) return null;
+
+  if (sourcePath.startsWith("http://") || sourcePath.startsWith("https://")) {
+    const response = await fetch(sourcePath);
+    if (!response.ok) {
+      throw new Error(`Failed to download source video: ${response.status}`);
+    }
+
+    const extension = project.sourceVideo?.fileName?.split(".").pop() ?? "mp4";
+    const tempPath = path.join(os.tmpdir(), `${project.id}-source.${extension}`);
+    const buffer = Buffer.from(await response.arrayBuffer());
+    await fs.writeFile(tempPath, buffer);
+    return tempPath;
+  }
+
+  return toAbsolutePublicPath(sourcePath);
 }
 
 async function fileExistsAndHasBytes(filePath: string) {
@@ -203,11 +226,11 @@ export async function ensureClipExport(project: Project, clip: GeneratedClip) {
   await fs.mkdir(exportDir, { recursive: true });
 
   const fileName = `${project.id}-${clip.id}-${createId("export")}.mp4`;
-  const outputPath = path.join(exportDir, fileName);
-  const publicPath = `/uploads/exports/${fileName}`;
-  const inputPath = project.sourceVideo?.storagePath
-    ? toAbsolutePublicPath(project.sourceVideo.storagePath)
-    : null;
+  const outputPath =
+    env.storageMode === "vercel-blob"
+      ? path.join(os.tmpdir(), fileName)
+      : path.join(exportDir, fileName);
+  const inputPath = await materializeInput(project);
 
   const hasRenderableInput = inputPath ? await fileExistsAndHasBytes(inputPath) : false;
 
@@ -217,8 +240,16 @@ export async function ensureClipExport(project: Project, clip: GeneratedClip) {
     await renderSyntheticFallback(outputPath, clip);
   }
 
+  if (env.storageMode === "vercel-blob") {
+    const blobUrl = await uploadRenderedAssetToVercelBlob(outputPath, fileName);
+    return {
+      outputPath,
+      publicPath: blobUrl
+    };
+  }
+
   return {
     outputPath,
-    publicPath
+    publicPath: `/uploads/exports/${fileName}`
   };
 }
