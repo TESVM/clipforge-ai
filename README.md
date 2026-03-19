@@ -1,5 +1,11 @@
 # ClipForge AI
 
+[![Release](https://img.shields.io/github/v/release/TESVM/clipforge-ai)](https://github.com/TESVM/clipforge-ai/releases/tag/v0.1.0)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
+[![FFmpeg](https://img.shields.io/badge/FFmpeg-local%20exports-green)](https://ffmpeg.org/)
+[![Status](https://img.shields.io/badge/status-MVP-orange)](https://github.com/TESVM/clipforge-ai)
+
 ClipForge AI is a production-style Next.js app for turning one long video into 10 short-form clips for TikTok, YouTube Shorts, Instagram Reels, and Facebook Reels.
 
 This repo includes:
@@ -18,6 +24,24 @@ This is an MVP with a real app structure and a mixed mock/real media pipeline:
 - real local file uploads
 - real local FFmpeg exports
 - mocked transcript, scoring, and highlight selection logic
+
+## Demo
+
+There is no hosted live demo yet.
+
+Use the local demo instead:
+- run the app on `http://127.0.0.1:3001`
+- sign in with the demo account
+- create a project
+- edit a clip
+- render and download an MP4
+
+Demo credentials:
+
+```text
+demo@clipforge.ai
+Demo123!
+```
 
 ## Tech Stack
 
@@ -101,6 +125,14 @@ http://127.0.0.1:3001
 demo@clipforge.ai
 Demo123!
 ```
+
+## Screens to Explore
+
+- landing page
+- dashboard
+- project detail page
+- clip editor
+- export flow
 
 ## Simple Test Flow
 
