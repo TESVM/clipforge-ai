@@ -235,6 +235,24 @@ BLOB_READ_WRITE_TOKEN="vercel_blob_rw_..."
 5. Enable Vercel Blob and add `BLOB_READ_WRITE_TOKEN`.
 6. Deploy.
 
+### Build behavior in this repo
+
+Vercel is configured to run:
+
+```bash
+npm run vercel-build
+```
+
+That command does:
+
+```bash
+prisma generate
+prisma migrate deploy
+next build
+```
+
+So once your database and environment variables are set, Vercel can build and deploy without extra manual Prisma steps.
+
 ### Important Vercel note
 
 The current Vercel mode uses:
