@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
+  "/api/clips/[clipId]/export/route": "/api/clips/[clipId]/export",
+  "/api/clips/[clipId]/route": "/api/clips/[clipId]",
+  "/api/export-jobs/[jobId]/route": "/api/export-jobs/[jobId]",
+  "/api/projects/[projectId]/process/route": "/api/projects/[projectId]/process",
+  "/api/projects/[projectId]/route": "/api/projects/[projectId]",
+  "/api/projects/route": "/api/projects",
+  "/(auth)/login/page": "/login",
+  "/(auth)/signup/page": "/signup",
+  "/dashboard/projects/[projectId]/page": "/dashboard/projects/[projectId]",
+  "/dashboard/page": "/dashboard",
+  "/dashboard/clips/[clipId]/page": "/dashboard/clips/[clipId]",
+  "/page": "/"
+}

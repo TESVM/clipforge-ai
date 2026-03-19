@@ -1,0 +1,5383 @@
+{
+  "users": [
+    {
+      "id": "user_demo",
+      "email": "demo@clipforge.ai",
+      "name": "ClipForge Demo",
+      "plan": "pro",
+      "image": null
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_fq7d9548",
+      "userId": "user_demo",
+      "title": "Founder Podcast Episode",
+      "status": "completed",
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/live/-kW0xMPraEY",
+      "description": "Clip the strongest founder growth moments, retention hooks, and CTA-driven insights.",
+      "createdAt": "2026-03-19T14:57:47.624Z",
+      "updatedAt": "2026-03-19T19:57:47.661Z",
+      "targetPlatforms": [
+        "tiktok",
+        "instagramReels"
+      ],
+      "targetDurations": [
+        30,
+        45,
+        60
+      ],
+      "sourceVideo": {
+        "id": "src_1773950267619",
+        "projectId": "proj_fq7d9548",
+        "sourceType": "youtube",
+        "sourceUrl": "https://www.youtube.com/live/-kW0xMPraEY",
+        "durationSec": 0,
+        "storagePath": "/samples/source-video.mp4"
+      },
+      "transcript": [
+        {
+          "id": "seg_muf7jeqd",
+          "startMs": 0,
+          "endMs": 10000,
+          "text": "The first three seconds of a clip decide whether the viewer swipes away.",
+          "speaker": "Speaker 1",
+          "emphasis": 92,
+          "emotion": 75,
+          "keywords": [
+            "three seconds",
+            "viewer",
+            "swipes"
+          ]
+        },
+        {
+          "id": "seg_qskrmg5j",
+          "startMs": 10000,
+          "endMs": 22000,
+          "text": "The best clips start with a payoff, not a preamble, and they keep visual motion on screen.",
+          "speaker": "Speaker 1",
+          "emphasis": 88,
+          "emotion": 78,
+          "keywords": [
+            "payoff",
+            "visual motion",
+            "clips"
+          ]
+        },
+        {
+          "id": "seg_v807xzfc",
+          "startMs": 22000,
+          "endMs": 36000,
+          "text": "When the speaker is centered, captions punch up the important words, and the CTA feels natural, people finish the video.",
+          "speaker": "Speaker 1",
+          "emphasis": 86,
+          "emotion": 82,
+          "keywords": [
+            "centered",
+            "captions",
+            "CTA"
+          ]
+        }
+      ],
+      "clips": [
+        {
+          "id": "clip_1h29nl8t",
+          "projectId": "proj_fq7d9548",
+          "summary": "Auto-generated from tiktok scoring with motion and emotion boosts.",
+          "duration": 30,
+          "viralScore": 83,
+          "platforms": [
+            "tiktok"
+          ],
+          "badges": [
+            "Strong Hook",
+            "Best CTA"
+          ],
+          "hookText": "The first three seconds of a clip decide whether the viewer swipes away",
+          "ctaText": "Follow for more tips",
+          "breakdown": {
+            "hook": 96,
+            "emotion": 75,
+            "clarity": 86,
+            "retention": 91.5,
+            "motion": 79,
+            "emphasis": 92,
+            "cta": 72,
+            "trend": 83,
+            "shareability": 79,
+            "replay": 90.66666666666667
+          },
+          "transcriptSegmentIds": [
+            "seg_muf7jeqd"
+          ],
+          "captions": [
+            {
+              "id": "cap_oxggcaz3",
+              "startMs": 0,
+              "endMs": 3333,
+              "text": "This",
+              "highlighted": true
+            },
+            {
+              "id": "cap_tzwwd1p5",
+              "startMs": 3333,
+              "endMs": 6666,
+              "text": "is",
+              "highlighted": false
+            },
+            {
+              "id": "cap_y3795i42",
+              "startMs": 6666,
+              "endMs": 9999,
+              "text": "a",
+              "highlighted": false
+            },
+            {
+              "id": "cap_i2aqhn50",
+              "startMs": 9999,
+              "endMs": 13332,
+              "text": "test",
+              "highlighted": true
+            },
+            {
+              "id": "cap_tqoh63fm",
+              "startMs": 13332,
+              "endMs": 16665,
+              "text": "caption",
+              "highlighted": false
+            },
+            {
+              "id": "cap_c0qdcbst",
+              "startMs": 16665,
+              "endMs": 19998,
+              "text": "burned",
+              "highlighted": false
+            },
+            {
+              "id": "cap_cfzpezdy",
+              "startMs": 19998,
+              "endMs": 23331,
+              "text": "into",
+              "highlighted": true
+            },
+            {
+              "id": "cap_5v8t0e6p",
+              "startMs": 23331,
+              "endMs": 26664,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_50qi92cr",
+              "startMs": 26664,
+              "endMs": 29997,
+              "text": "video.",
+              "highlighted": false
+            }
+          ],
+          "aspectRatio": "1:1",
+          "exportUrl": "/uploads/exports/proj_fq7d9548-clip_1h29nl8t-export_19s6co3f.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+          "socialPackage": {
+            "title": "Hook-first Breakdown: three seconds",
+            "postText": "The first three seconds of a clip decide whether the viewer swipes away. Follow for more.",
+            "hashtags": [
+              "#clipforgeai",
+              "#tiktokgrowth",
+              "#youtubeShorts",
+              "#instagramreels",
+              "#viralvideo"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with captions and keep the pace tight.",
+              "youtubeShorts": "Use a promise-led title with keyword clarity.",
+              "instagramReels": "Favor strong visual framing and concise text.",
+              "facebookReels": "Use a direct CTA with a practical benefit."
+            }
+          },
+          "title": "Hook-first Breakdown: three seconds",
+          "startMs": 0,
+          "endMs": 30000
+        },
+        {
+          "id": "clip_fuhajrzt",
+          "projectId": "proj_fq7d9548",
+          "title": "Retention Spike Moment: payoff",
+          "summary": "Auto-generated from instagramReels scoring with motion and emotion boosts.",
+          "startMs": 9000,
+          "endMs": 54000,
+          "duration": 45,
+          "viralScore": 83,
+          "platforms": [
+            "instagramReels"
+          ],
+          "badges": [
+            "Strong Hook",
+            "Best CTA"
+          ],
+          "hookText": "The best clips start with a payoff, not a preamble, and they keep visual motion on screen",
+          "ctaText": "Follow for more",
+          "breakdown": {
+            "hook": 92,
+            "emotion": 78,
+            "clarity": 86,
+            "retention": 91,
+            "motion": 79,
+            "emphasis": 88,
+            "cta": 62,
+            "trend": 83,
+            "shareability": 83,
+            "replay": 89.33333333333333
+          },
+          "transcriptSegmentIds": [
+            "seg_qskrmg5j"
+          ],
+          "captions": [
+            {
+              "id": "cap_ob0y9mh4",
+              "startMs": 10000,
+              "endMs": 10300,
+              "text": "The",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ytcjhlzw",
+              "startMs": 10300,
+              "endMs": 10600,
+              "text": "best",
+              "highlighted": false
+            },
+            {
+              "id": "cap_jjunloty",
+              "startMs": 10600,
+              "endMs": 10900,
+              "text": "clips",
+              "highlighted": false
+            },
+            {
+              "id": "cap_bu4riry0",
+              "startMs": 10900,
+              "endMs": 11200,
+              "text": "start",
+              "highlighted": false
+            },
+            {
+              "id": "cap_2fpodh16",
+              "startMs": 11200,
+              "endMs": 11500,
+              "text": "with",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ovltq3kr",
+              "startMs": 11500,
+              "endMs": 11800,
+              "text": "a",
+              "highlighted": false
+            },
+            {
+              "id": "cap_9n6f24zx",
+              "startMs": 11800,
+              "endMs": 12100,
+              "text": "payoff,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_waj3in20",
+              "startMs": 12100,
+              "endMs": 12400,
+              "text": "not",
+              "highlighted": false
+            },
+            {
+              "id": "cap_erh3tvp8",
+              "startMs": 12400,
+              "endMs": 12700,
+              "text": "a",
+              "highlighted": true
+            },
+            {
+              "id": "cap_yx0ubggk",
+              "startMs": 12700,
+              "endMs": 13000,
+              "text": "preamble,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_kqpvawce",
+              "startMs": 13000,
+              "endMs": 13300,
+              "text": "and",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ceqy2c2a",
+              "startMs": 13300,
+              "endMs": 13600,
+              "text": "they",
+              "highlighted": false
+            },
+            {
+              "id": "cap_x2tyhy5g",
+              "startMs": 13600,
+              "endMs": 13900,
+              "text": "keep",
+              "highlighted": true
+            },
+            {
+              "id": "cap_w97e8fsf",
+              "startMs": 13900,
+              "endMs": 14200,
+              "text": "visual",
+              "highlighted": false
+            },
+            {
+              "id": "cap_vwyi1so1",
+              "startMs": 14200,
+              "endMs": 14500,
+              "text": "motion",
+              "highlighted": false
+            },
+            {
+              "id": "cap_a6tf1s41",
+              "startMs": 14500,
+              "endMs": 14800,
+              "text": "on",
+              "highlighted": false
+            },
+            {
+              "id": "cap_yfi83fcj",
+              "startMs": 14800,
+              "endMs": 15100,
+              "text": "screen.",
+              "highlighted": true
+            }
+          ],
+          "aspectRatio": "9:16",
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+          "favorite": true,
+          "socialPackage": {
+            "title": "Retention Spike Moment: payoff",
+            "postText": "The best clips start with a payoff, not a preamble, and they keep visual motion on screen. Follow for more.",
+            "hashtags": [
+              "#clipforgeai",
+              "#tiktokgrowth",
+              "#youtubeShorts",
+              "#instagramreels",
+              "#viralvideo"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with captions and keep the pace tight.",
+              "youtubeShorts": "Use a promise-led title with keyword clarity.",
+              "instagramReels": "Favor strong visual framing and concise text.",
+              "facebookReels": "Use a direct CTA with a practical benefit."
+            }
+          }
+        },
+        {
+          "id": "clip_izqjhga6",
+          "projectId": "proj_fq7d9548",
+          "title": "Best CTA Cut: centered",
+          "summary": "Auto-generated from tiktok scoring with motion and emotion boosts.",
+          "startMs": 21000,
+          "endMs": 81000,
+          "duration": 60,
+          "viralScore": 85,
+          "platforms": [
+            "tiktok"
+          ],
+          "badges": [
+            "Strong Hook",
+            "High Emotion"
+          ],
+          "hookText": "When the speaker is centered, captions punch up the important words, and the CTA feels natural, people finish the video",
+          "ctaText": "Follow for more",
+          "breakdown": {
+            "hook": 90,
+            "emotion": 82,
+            "clarity": 86,
+            "retention": 92,
+            "motion": 79,
+            "emphasis": 86,
+            "cta": 64,
+            "trend": 83,
+            "shareability": 86,
+            "replay": 88.66666666666667
+          },
+          "transcriptSegmentIds": [
+            "seg_v807xzfc"
+          ],
+          "captions": [
+            {
+              "id": "cap_zf0un7b2",
+              "startMs": 22000,
+              "endMs": 22300,
+              "text": "When",
+              "highlighted": true
+            },
+            {
+              "id": "cap_tphd12ln",
+              "startMs": 22300,
+              "endMs": 22600,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_9vp27u8a",
+              "startMs": 22600,
+              "endMs": 22900,
+              "text": "speaker",
+              "highlighted": false
+            },
+            {
+              "id": "cap_xbgql52k",
+              "startMs": 22900,
+              "endMs": 23200,
+              "text": "is",
+              "highlighted": false
+            },
+            {
+              "id": "cap_5495uapm",
+              "startMs": 23200,
+              "endMs": 23500,
+              "text": "centered,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_a7jrcua2",
+              "startMs": 23500,
+              "endMs": 23800,
+              "text": "captions",
+              "highlighted": false
+            },
+            {
+              "id": "cap_zhg2zr7e",
+              "startMs": 23800,
+              "endMs": 24100,
+              "text": "punch",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ku4gawf3",
+              "startMs": 24100,
+              "endMs": 24400,
+              "text": "up",
+              "highlighted": false
+            },
+            {
+              "id": "cap_nwn9kzmd",
+              "startMs": 24400,
+              "endMs": 24700,
+              "text": "the",
+              "highlighted": true
+            },
+            {
+              "id": "cap_8ksnz84l",
+              "startMs": 24700,
+              "endMs": 25000,
+              "text": "important",
+              "highlighted": false
+            },
+            {
+              "id": "cap_55l2ex5x",
+              "startMs": 25000,
+              "endMs": 25300,
+              "text": "words,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_11qes3pl",
+              "startMs": 25300,
+              "endMs": 25600,
+              "text": "and",
+              "highlighted": false
+            },
+            {
+              "id": "cap_dx4trtjz",
+              "startMs": 25600,
+              "endMs": 25900,
+              "text": "the",
+              "highlighted": true
+            },
+            {
+              "id": "cap_847d71se",
+              "startMs": 25900,
+              "endMs": 26200,
+              "text": "CTA",
+              "highlighted": false
+            },
+            {
+              "id": "cap_xwpracri",
+              "startMs": 26200,
+              "endMs": 26500,
+              "text": "feels",
+              "highlighted": false
+            },
+            {
+              "id": "cap_u4perp6j",
+              "startMs": 26500,
+              "endMs": 26800,
+              "text": "natural,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_lvolxdi9",
+              "startMs": 26800,
+              "endMs": 27100,
+              "text": "people",
+              "highlighted": true
+            },
+            {
+              "id": "cap_m3tatrs4",
+              "startMs": 27100,
+              "endMs": 27400,
+              "text": "finish",
+              "highlighted": false
+            },
+            {
+              "id": "cap_jne9qc7x",
+              "startMs": 27400,
+              "endMs": 27700,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_u9i7po8q",
+              "startMs": 27700,
+              "endMs": 28000,
+              "text": "video.",
+              "highlighted": false
+            }
+          ],
+          "aspectRatio": "9:16",
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+          "favorite": true,
+          "socialPackage": {
+            "title": "Best CTA Cut: centered",
+            "postText": "When the speaker is centered, captions punch up the important words, and the CTA feels natural, people finish the video. Follow for more.",
+            "hashtags": [
+              "#clipforgeai",
+              "#tiktokgrowth",
+              "#youtubeShorts",
+              "#instagramreels",
+              "#viralvideo"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with captions and keep the pace tight.",
+              "youtubeShorts": "Use a promise-led title with keyword clarity.",
+              "instagramReels": "Favor strong visual framing and concise text.",
+              "facebookReels": "Use a direct CTA with a practical benefit."
+            }
+          }
+        },
+        {
+          "id": "clip_fjsqb888",
+          "projectId": "proj_fq7d9548",
+          "title": "High Emotion Highlight: three seconds",
+          "summary": "Auto-generated from instagramReels scoring with motion and emotion boosts.",
+          "startMs": 0,
+          "endMs": 30000,
+          "duration": 30,
+          "viralScore": 83,
+          "platforms": [
+            "instagramReels"
+          ],
+          "badges": [
+            "Strong Hook",
+            "Best CTA"
+          ],
+          "hookText": "The first three seconds of a clip decide whether the viewer swipes away",
+          "ctaText": "Follow for more",
+          "breakdown": {
+            "hook": 96,
+            "emotion": 75,
+            "clarity": 86,
+            "retention": 91.5,
+            "motion": 79,
+            "emphasis": 92,
+            "cta": 72,
+            "trend": 83,
+            "shareability": 79,
+            "replay": 90.66666666666667
+          },
+          "transcriptSegmentIds": [
+            "seg_muf7jeqd"
+          ],
+          "captions": [
+            {
+              "id": "cap_io75f410",
+              "startMs": 0,
+              "endMs": 300,
+              "text": "The",
+              "highlighted": true
+            },
+            {
+              "id": "cap_yaq9248f",
+              "startMs": 300,
+              "endMs": 600,
+              "text": "first",
+              "highlighted": false
+            },
+            {
+              "id": "cap_l8huuzf0",
+              "startMs": 600,
+              "endMs": 900,
+              "text": "three",
+              "highlighted": false
+            },
+            {
+              "id": "cap_r7sgbedf",
+              "startMs": 900,
+              "endMs": 1200,
+              "text": "seconds",
+              "highlighted": false
+            },
+            {
+              "id": "cap_7ilgm6ko",
+              "startMs": 1200,
+              "endMs": 1500,
+              "text": "of",
+              "highlighted": true
+            },
+            {
+              "id": "cap_xaj9jv5q",
+              "startMs": 1500,
+              "endMs": 1800,
+              "text": "a",
+              "highlighted": false
+            },
+            {
+              "id": "cap_0ujywtao",
+              "startMs": 1800,
+              "endMs": 2100,
+              "text": "clip",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ku64f4fn",
+              "startMs": 2100,
+              "endMs": 2400,
+              "text": "decide",
+              "highlighted": false
+            },
+            {
+              "id": "cap_1v68ihk2",
+              "startMs": 2400,
+              "endMs": 2700,
+              "text": "whether",
+              "highlighted": true
+            },
+            {
+              "id": "cap_9e0y2o8k",
+              "startMs": 2700,
+              "endMs": 3000,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ibfuvt7l",
+              "startMs": 3000,
+              "endMs": 3300,
+              "text": "viewer",
+              "highlighted": false
+            },
+            {
+              "id": "cap_bpe0verj",
+              "startMs": 3300,
+              "endMs": 3600,
+              "text": "swipes",
+              "highlighted": false
+            },
+            {
+              "id": "cap_gxgn00ei",
+              "startMs": 3600,
+              "endMs": 3900,
+              "text": "away.",
+              "highlighted": true
+            }
+          ],
+          "aspectRatio": "9:16",
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+          "favorite": false,
+          "socialPackage": {
+            "title": "High Emotion Highlight: three seconds",
+            "postText": "The first three seconds of a clip decide whether the viewer swipes away. Follow for more.",
+            "hashtags": [
+              "#clipforgeai",
+              "#tiktokgrowth",
+              "#youtubeShorts",
+              "#instagramreels",
+              "#viralvideo"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with captions and keep the pace tight.",
+              "youtubeShorts": "Use a promise-led title with keyword clarity.",
+              "instagramReels": "Favor strong visual framing and concise text.",
+              "facebookReels": "Use a direct CTA with a practical benefit."
+            }
+          }
+        },
+        {
+          "id": "clip_v83cidcn",
+          "projectId": "proj_fq7d9548",
+          "title": "Best for Reels: payoff",
+          "summary": "Auto-generated from tiktok scoring with motion and emotion boosts.",
+          "startMs": 9000,
+          "endMs": 54000,
+          "duration": 45,
+          "viralScore": 83,
+          "platforms": [
+            "tiktok"
+          ],
+          "badges": [
+            "Strong Hook",
+            "Best CTA"
+          ],
+          "hookText": "The best clips start with a payoff, not a preamble, and they keep visual motion on screen",
+          "ctaText": "Follow for more",
+          "breakdown": {
+            "hook": 92,
+            "emotion": 78,
+            "clarity": 86,
+            "retention": 91,
+            "motion": 79,
+            "emphasis": 88,
+            "cta": 62,
+            "trend": 83,
+            "shareability": 83,
+            "replay": 89.33333333333333
+          },
+          "transcriptSegmentIds": [
+            "seg_qskrmg5j"
+          ],
+          "captions": [
+            {
+              "id": "cap_yb9shvhv",
+              "startMs": 10000,
+              "endMs": 10300,
+              "text": "The",
+              "highlighted": true
+            },
+            {
+              "id": "cap_jpoqarzy",
+              "startMs": 10300,
+              "endMs": 10600,
+              "text": "best",
+              "highlighted": false
+            },
+            {
+              "id": "cap_0vecsmb0",
+              "startMs": 10600,
+              "endMs": 10900,
+              "text": "clips",
+              "highlighted": false
+            },
+            {
+              "id": "cap_egzzy1fu",
+              "startMs": 10900,
+              "endMs": 11200,
+              "text": "start",
+              "highlighted": false
+            },
+            {
+              "id": "cap_82bs8zkh",
+              "startMs": 11200,
+              "endMs": 11500,
+              "text": "with",
+              "highlighted": true
+            },
+            {
+              "id": "cap_77n0t2mn",
+              "startMs": 11500,
+              "endMs": 11800,
+              "text": "a",
+              "highlighted": false
+            },
+            {
+              "id": "cap_g4na8pto",
+              "startMs": 11800,
+              "endMs": 12100,
+              "text": "payoff,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_i8xmt5aq",
+              "startMs": 12100,
+              "endMs": 12400,
+              "text": "not",
+              "highlighted": false
+            },
+            {
+              "id": "cap_9vlyy3q7",
+              "startMs": 12400,
+              "endMs": 12700,
+              "text": "a",
+              "highlighted": true
+            },
+            {
+              "id": "cap_whlb923o",
+              "startMs": 12700,
+              "endMs": 13000,
+              "text": "preamble,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_smcad1wb",
+              "startMs": 13000,
+              "endMs": 13300,
+              "text": "and",
+              "highlighted": false
+            },
+            {
+              "id": "cap_on2c5fko",
+              "startMs": 13300,
+              "endMs": 13600,
+              "text": "they",
+              "highlighted": false
+            },
+            {
+              "id": "cap_2mn78itn",
+              "startMs": 13600,
+              "endMs": 13900,
+              "text": "keep",
+              "highlighted": true
+            },
+            {
+              "id": "cap_i52onxsb",
+              "startMs": 13900,
+              "endMs": 14200,
+              "text": "visual",
+              "highlighted": false
+            },
+            {
+              "id": "cap_c248479y",
+              "startMs": 14200,
+              "endMs": 14500,
+              "text": "motion",
+              "highlighted": false
+            },
+            {
+              "id": "cap_obj5a7n2",
+              "startMs": 14500,
+              "endMs": 14800,
+              "text": "on",
+              "highlighted": false
+            },
+            {
+              "id": "cap_tqskn584",
+              "startMs": 14800,
+              "endMs": 15100,
+              "text": "screen.",
+              "highlighted": true
+            }
+          ],
+          "aspectRatio": "9:16",
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+          "favorite": false,
+          "socialPackage": {
+            "title": "Best for Reels: payoff",
+            "postText": "The best clips start with a payoff, not a preamble, and they keep visual motion on screen. Follow for more.",
+            "hashtags": [
+              "#clipforgeai",
+              "#tiktokgrowth",
+              "#youtubeShorts",
+              "#instagramreels",
+              "#viralvideo"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with captions and keep the pace tight.",
+              "youtubeShorts": "Use a promise-led title with keyword clarity.",
+              "instagramReels": "Favor strong visual framing and concise text.",
+              "facebookReels": "Use a direct CTA with a practical benefit."
+            }
+          }
+        },
+        {
+          "id": "clip_54b8ookz",
+          "projectId": "proj_fq7d9548",
+          "title": "Best for Shorts: centered",
+          "summary": "Auto-generated from instagramReels scoring with motion and emotion boosts.",
+          "startMs": 21000,
+          "endMs": 81000,
+          "duration": 60,
+          "viralScore": 85,
+          "platforms": [
+            "instagramReels"
+          ],
+          "badges": [
+            "Strong Hook",
+            "High Emotion"
+          ],
+          "hookText": "When the speaker is centered, captions punch up the important words, and the CTA feels natural, people finish the video",
+          "ctaText": "Follow for more",
+          "breakdown": {
+            "hook": 90,
+            "emotion": 82,
+            "clarity": 86,
+            "retention": 92,
+            "motion": 79,
+            "emphasis": 86,
+            "cta": 64,
+            "trend": 83,
+            "shareability": 86,
+            "replay": 88.66666666666667
+          },
+          "transcriptSegmentIds": [
+            "seg_v807xzfc"
+          ],
+          "captions": [
+            {
+              "id": "cap_13ze15ce",
+              "startMs": 22000,
+              "endMs": 22300,
+              "text": "When",
+              "highlighted": true
+            },
+            {
+              "id": "cap_a2p91rsk",
+              "startMs": 22300,
+              "endMs": 22600,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_epxbu82v",
+              "startMs": 22600,
+              "endMs": 22900,
+              "text": "speaker",
+              "highlighted": false
+            },
+            {
+              "id": "cap_39765nu9",
+              "startMs": 22900,
+              "endMs": 23200,
+              "text": "is",
+              "highlighted": false
+            },
+            {
+              "id": "cap_wd9wu3ke",
+              "startMs": 23200,
+              "endMs": 23500,
+              "text": "centered,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_anhuwvan",
+              "startMs": 23500,
+              "endMs": 23800,
+              "text": "captions",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ypr8h4px",
+              "startMs": 23800,
+              "endMs": 24100,
+              "text": "punch",
+              "highlighted": false
+            },
+            {
+              "id": "cap_d0oegeti",
+              "startMs": 24100,
+              "endMs": 24400,
+              "text": "up",
+              "highlighted": false
+            },
+            {
+              "id": "cap_tdposadf",
+              "startMs": 24400,
+              "endMs": 24700,
+              "text": "the",
+              "highlighted": true
+            },
+            {
+              "id": "cap_bfhk985a",
+              "startMs": 24700,
+              "endMs": 25000,
+              "text": "important",
+              "highlighted": false
+            },
+            {
+              "id": "cap_f1k3smpg",
+              "startMs": 25000,
+              "endMs": 25300,
+              "text": "words,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_s35ru707",
+              "startMs": 25300,
+              "endMs": 25600,
+              "text": "and",
+              "highlighted": false
+            },
+            {
+              "id": "cap_cbmy2n4g",
+              "startMs": 25600,
+              "endMs": 25900,
+              "text": "the",
+              "highlighted": true
+            },
+            {
+              "id": "cap_6swahxin",
+              "startMs": 25900,
+              "endMs": 26200,
+              "text": "CTA",
+              "highlighted": false
+            },
+            {
+              "id": "cap_u1iqff7x",
+              "startMs": 26200,
+              "endMs": 26500,
+              "text": "feels",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ohumookp",
+              "startMs": 26500,
+              "endMs": 26800,
+              "text": "natural,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_yt9unl2k",
+              "startMs": 26800,
+              "endMs": 27100,
+              "text": "people",
+              "highlighted": true
+            },
+            {
+              "id": "cap_b7jl37cu",
+              "startMs": 27100,
+              "endMs": 27400,
+              "text": "finish",
+              "highlighted": false
+            },
+            {
+              "id": "cap_fkbymd4i",
+              "startMs": 27400,
+              "endMs": 27700,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_n0chx50s",
+              "startMs": 27700,
+              "endMs": 28000,
+              "text": "video.",
+              "highlighted": false
+            }
+          ],
+          "aspectRatio": "9:16",
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+          "favorite": false,
+          "socialPackage": {
+            "title": "Best for Shorts: centered",
+            "postText": "When the speaker is centered, captions punch up the important words, and the CTA feels natural, people finish the video. Follow for more.",
+            "hashtags": [
+              "#clipforgeai",
+              "#tiktokgrowth",
+              "#youtubeShorts",
+              "#instagramreels",
+              "#viralvideo"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with captions and keep the pace tight.",
+              "youtubeShorts": "Use a promise-led title with keyword clarity.",
+              "instagramReels": "Favor strong visual framing and concise text.",
+              "facebookReels": "Use a direct CTA with a practical benefit."
+            }
+          }
+        },
+        {
+          "id": "clip_zi7xndv0",
+          "projectId": "proj_fq7d9548",
+          "title": "Replay-worthy Edit: three seconds",
+          "summary": "Auto-generated from tiktok scoring with motion and emotion boosts.",
+          "startMs": 0,
+          "endMs": 30000,
+          "duration": 30,
+          "viralScore": 83,
+          "platforms": [
+            "tiktok"
+          ],
+          "badges": [
+            "Strong Hook",
+            "Best CTA"
+          ],
+          "hookText": "The first three seconds of a clip decide whether the viewer swipes away",
+          "ctaText": "Follow for more",
+          "breakdown": {
+            "hook": 96,
+            "emotion": 75,
+            "clarity": 86,
+            "retention": 91.5,
+            "motion": 79,
+            "emphasis": 92,
+            "cta": 72,
+            "trend": 83,
+            "shareability": 79,
+            "replay": 90.66666666666667
+          },
+          "transcriptSegmentIds": [
+            "seg_muf7jeqd"
+          ],
+          "captions": [
+            {
+              "id": "cap_uhhty1ll",
+              "startMs": 0,
+              "endMs": 300,
+              "text": "The",
+              "highlighted": true
+            },
+            {
+              "id": "cap_wy1v1p6r",
+              "startMs": 300,
+              "endMs": 600,
+              "text": "first",
+              "highlighted": false
+            },
+            {
+              "id": "cap_0vfn6u7g",
+              "startMs": 600,
+              "endMs": 900,
+              "text": "three",
+              "highlighted": false
+            },
+            {
+              "id": "cap_qpxs5nm9",
+              "startMs": 900,
+              "endMs": 1200,
+              "text": "seconds",
+              "highlighted": false
+            },
+            {
+              "id": "cap_tvc2xlhc",
+              "startMs": 1200,
+              "endMs": 1500,
+              "text": "of",
+              "highlighted": true
+            },
+            {
+              "id": "cap_kngrjet6",
+              "startMs": 1500,
+              "endMs": 1800,
+              "text": "a",
+              "highlighted": false
+            },
+            {
+              "id": "cap_afi1w2qo",
+              "startMs": 1800,
+              "endMs": 2100,
+              "text": "clip",
+              "highlighted": false
+            },
+            {
+              "id": "cap_gs76po1m",
+              "startMs": 2100,
+              "endMs": 2400,
+              "text": "decide",
+              "highlighted": false
+            },
+            {
+              "id": "cap_2j8q0b10",
+              "startMs": 2400,
+              "endMs": 2700,
+              "text": "whether",
+              "highlighted": true
+            },
+            {
+              "id": "cap_jzeorgq0",
+              "startMs": 2700,
+              "endMs": 3000,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_3nxtrizd",
+              "startMs": 3000,
+              "endMs": 3300,
+              "text": "viewer",
+              "highlighted": false
+            },
+            {
+              "id": "cap_u1fft16w",
+              "startMs": 3300,
+              "endMs": 3600,
+              "text": "swipes",
+              "highlighted": false
+            },
+            {
+              "id": "cap_jm82ym89",
+              "startMs": 3600,
+              "endMs": 3900,
+              "text": "away.",
+              "highlighted": true
+            }
+          ],
+          "aspectRatio": "9:16",
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+          "favorite": false,
+          "socialPackage": {
+            "title": "Replay-worthy Edit: three seconds",
+            "postText": "The first three seconds of a clip decide whether the viewer swipes away. Follow for more.",
+            "hashtags": [
+              "#clipforgeai",
+              "#tiktokgrowth",
+              "#youtubeShorts",
+              "#instagramreels",
+              "#viralvideo"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with captions and keep the pace tight.",
+              "youtubeShorts": "Use a promise-led title with keyword clarity.",
+              "instagramReels": "Favor strong visual framing and concise text.",
+              "facebookReels": "Use a direct CTA with a practical benefit."
+            }
+          }
+        },
+        {
+          "id": "clip_ud1k1fzw",
+          "projectId": "proj_fq7d9548",
+          "title": "Audience Magnet: payoff",
+          "summary": "Auto-generated from instagramReels scoring with motion and emotion boosts.",
+          "startMs": 9000,
+          "endMs": 54000,
+          "duration": 45,
+          "viralScore": 83,
+          "platforms": [
+            "instagramReels"
+          ],
+          "badges": [
+            "Strong Hook",
+            "Best CTA"
+          ],
+          "hookText": "The best clips start with a payoff, not a preamble, and they keep visual motion on screen",
+          "ctaText": "Follow for more",
+          "breakdown": {
+            "hook": 92,
+            "emotion": 78,
+            "clarity": 86,
+            "retention": 91,
+            "motion": 79,
+            "emphasis": 88,
+            "cta": 62,
+            "trend": 83,
+            "shareability": 83,
+            "replay": 89.33333333333333
+          },
+          "transcriptSegmentIds": [
+            "seg_qskrmg5j"
+          ],
+          "captions": [
+            {
+              "id": "cap_sa6o86hf",
+              "startMs": 10000,
+              "endMs": 10300,
+              "text": "The",
+              "highlighted": true
+            },
+            {
+              "id": "cap_0zjiruc4",
+              "startMs": 10300,
+              "endMs": 10600,
+              "text": "best",
+              "highlighted": false
+            },
+            {
+              "id": "cap_9aduae7d",
+              "startMs": 10600,
+              "endMs": 10900,
+              "text": "clips",
+              "highlighted": false
+            },
+            {
+              "id": "cap_b9ra82da",
+              "startMs": 10900,
+              "endMs": 11200,
+              "text": "start",
+              "highlighted": false
+            },
+            {
+              "id": "cap_j1unet6a",
+              "startMs": 11200,
+              "endMs": 11500,
+              "text": "with",
+              "highlighted": true
+            },
+            {
+              "id": "cap_6to32yzq",
+              "startMs": 11500,
+              "endMs": 11800,
+              "text": "a",
+              "highlighted": false
+            },
+            {
+              "id": "cap_nyzshi4p",
+              "startMs": 11800,
+              "endMs": 12100,
+              "text": "payoff,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_au3yeiuk",
+              "startMs": 12100,
+              "endMs": 12400,
+              "text": "not",
+              "highlighted": false
+            },
+            {
+              "id": "cap_yb7gcpu4",
+              "startMs": 12400,
+              "endMs": 12700,
+              "text": "a",
+              "highlighted": true
+            },
+            {
+              "id": "cap_h0mmgajw",
+              "startMs": 12700,
+              "endMs": 13000,
+              "text": "preamble,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_wl2bl4u2",
+              "startMs": 13000,
+              "endMs": 13300,
+              "text": "and",
+              "highlighted": false
+            },
+            {
+              "id": "cap_gc7adiki",
+              "startMs": 13300,
+              "endMs": 13600,
+              "text": "they",
+              "highlighted": false
+            },
+            {
+              "id": "cap_qcdu41fs",
+              "startMs": 13600,
+              "endMs": 13900,
+              "text": "keep",
+              "highlighted": true
+            },
+            {
+              "id": "cap_i3a9v4lp",
+              "startMs": 13900,
+              "endMs": 14200,
+              "text": "visual",
+              "highlighted": false
+            },
+            {
+              "id": "cap_e3tnkpfr",
+              "startMs": 14200,
+              "endMs": 14500,
+              "text": "motion",
+              "highlighted": false
+            },
+            {
+              "id": "cap_qxomhhxj",
+              "startMs": 14500,
+              "endMs": 14800,
+              "text": "on",
+              "highlighted": false
+            },
+            {
+              "id": "cap_4ovjg32f",
+              "startMs": 14800,
+              "endMs": 15100,
+              "text": "screen.",
+              "highlighted": true
+            }
+          ],
+          "aspectRatio": "9:16",
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+          "favorite": false,
+          "socialPackage": {
+            "title": "Audience Magnet: payoff",
+            "postText": "The best clips start with a payoff, not a preamble, and they keep visual motion on screen. Follow for more.",
+            "hashtags": [
+              "#clipforgeai",
+              "#tiktokgrowth",
+              "#youtubeShorts",
+              "#instagramreels",
+              "#viralvideo"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with captions and keep the pace tight.",
+              "youtubeShorts": "Use a promise-led title with keyword clarity.",
+              "instagramReels": "Favor strong visual framing and concise text.",
+              "facebookReels": "Use a direct CTA with a practical benefit."
+            }
+          }
+        },
+        {
+          "id": "clip_tfac93gg",
+          "projectId": "proj_fq7d9548",
+          "title": "Fast Scroll Stopper: centered",
+          "summary": "Auto-generated from tiktok scoring with motion and emotion boosts.",
+          "startMs": 21000,
+          "endMs": 81000,
+          "duration": 60,
+          "viralScore": 85,
+          "platforms": [
+            "tiktok"
+          ],
+          "badges": [
+            "Strong Hook",
+            "High Emotion"
+          ],
+          "hookText": "When the speaker is centered, captions punch up the important words, and the CTA feels natural, people finish the video",
+          "ctaText": "Follow for more",
+          "breakdown": {
+            "hook": 90,
+            "emotion": 82,
+            "clarity": 86,
+            "retention": 92,
+            "motion": 79,
+            "emphasis": 86,
+            "cta": 64,
+            "trend": 83,
+            "shareability": 86,
+            "replay": 88.66666666666667
+          },
+          "transcriptSegmentIds": [
+            "seg_v807xzfc"
+          ],
+          "captions": [
+            {
+              "id": "cap_dah0qf4s",
+              "startMs": 22000,
+              "endMs": 22300,
+              "text": "When",
+              "highlighted": true
+            },
+            {
+              "id": "cap_92f9peon",
+              "startMs": 22300,
+              "endMs": 22600,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_kz95op3h",
+              "startMs": 22600,
+              "endMs": 22900,
+              "text": "speaker",
+              "highlighted": false
+            },
+            {
+              "id": "cap_nwicq8um",
+              "startMs": 22900,
+              "endMs": 23200,
+              "text": "is",
+              "highlighted": false
+            },
+            {
+              "id": "cap_t45car7i",
+              "startMs": 23200,
+              "endMs": 23500,
+              "text": "centered,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_5foqowp3",
+              "startMs": 23500,
+              "endMs": 23800,
+              "text": "captions",
+              "highlighted": false
+            },
+            {
+              "id": "cap_mbjluuql",
+              "startMs": 23800,
+              "endMs": 24100,
+              "text": "punch",
+              "highlighted": false
+            },
+            {
+              "id": "cap_lo4y6bp5",
+              "startMs": 24100,
+              "endMs": 24400,
+              "text": "up",
+              "highlighted": false
+            },
+            {
+              "id": "cap_yr96sa3j",
+              "startMs": 24400,
+              "endMs": 24700,
+              "text": "the",
+              "highlighted": true
+            },
+            {
+              "id": "cap_8s8a3v9t",
+              "startMs": 24700,
+              "endMs": 25000,
+              "text": "important",
+              "highlighted": false
+            },
+            {
+              "id": "cap_8k3zkdmt",
+              "startMs": 25000,
+              "endMs": 25300,
+              "text": "words,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_1qava312",
+              "startMs": 25300,
+              "endMs": 25600,
+              "text": "and",
+              "highlighted": false
+            },
+            {
+              "id": "cap_usijj49x",
+              "startMs": 25600,
+              "endMs": 25900,
+              "text": "the",
+              "highlighted": true
+            },
+            {
+              "id": "cap_nvpnrkw9",
+              "startMs": 25900,
+              "endMs": 26200,
+              "text": "CTA",
+              "highlighted": false
+            },
+            {
+              "id": "cap_nnxb1yv8",
+              "startMs": 26200,
+              "endMs": 26500,
+              "text": "feels",
+              "highlighted": false
+            },
+            {
+              "id": "cap_okbzsi61",
+              "startMs": 26500,
+              "endMs": 26800,
+              "text": "natural,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_t05o8c35",
+              "startMs": 26800,
+              "endMs": 27100,
+              "text": "people",
+              "highlighted": true
+            },
+            {
+              "id": "cap_i9vt814w",
+              "startMs": 27100,
+              "endMs": 27400,
+              "text": "finish",
+              "highlighted": false
+            },
+            {
+              "id": "cap_r2z6goyn",
+              "startMs": 27400,
+              "endMs": 27700,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_m5s5427h",
+              "startMs": 27700,
+              "endMs": 28000,
+              "text": "video.",
+              "highlighted": false
+            }
+          ],
+          "aspectRatio": "9:16",
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+          "favorite": false,
+          "socialPackage": {
+            "title": "Fast Scroll Stopper: centered",
+            "postText": "When the speaker is centered, captions punch up the important words, and the CTA feels natural, people finish the video. Follow for more.",
+            "hashtags": [
+              "#clipforgeai",
+              "#tiktokgrowth",
+              "#youtubeShorts",
+              "#instagramreels",
+              "#viralvideo"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with captions and keep the pace tight.",
+              "youtubeShorts": "Use a promise-led title with keyword clarity.",
+              "instagramReels": "Favor strong visual framing and concise text.",
+              "facebookReels": "Use a direct CTA with a practical benefit."
+            }
+          }
+        },
+        {
+          "id": "clip_qrndrrtx",
+          "projectId": "proj_fq7d9548",
+          "title": "Polished Viral Angle: three seconds",
+          "summary": "Auto-generated from instagramReels scoring with motion and emotion boosts.",
+          "startMs": 0,
+          "endMs": 30000,
+          "duration": 30,
+          "viralScore": 83,
+          "platforms": [
+            "instagramReels"
+          ],
+          "badges": [
+            "Strong Hook",
+            "Best CTA"
+          ],
+          "hookText": "The first three seconds of a clip decide whether the viewer swipes away",
+          "ctaText": "Follow for more",
+          "breakdown": {
+            "hook": 96,
+            "emotion": 75,
+            "clarity": 86,
+            "retention": 91.5,
+            "motion": 79,
+            "emphasis": 92,
+            "cta": 72,
+            "trend": 83,
+            "shareability": 79,
+            "replay": 90.66666666666667
+          },
+          "transcriptSegmentIds": [
+            "seg_muf7jeqd"
+          ],
+          "captions": [
+            {
+              "id": "cap_pbn6hsrh",
+              "startMs": 0,
+              "endMs": 300,
+              "text": "The",
+              "highlighted": true
+            },
+            {
+              "id": "cap_rk2fw34q",
+              "startMs": 300,
+              "endMs": 600,
+              "text": "first",
+              "highlighted": false
+            },
+            {
+              "id": "cap_y5ntc297",
+              "startMs": 600,
+              "endMs": 900,
+              "text": "three",
+              "highlighted": false
+            },
+            {
+              "id": "cap_uc44r6zk",
+              "startMs": 900,
+              "endMs": 1200,
+              "text": "seconds",
+              "highlighted": false
+            },
+            {
+              "id": "cap_dt1he7zn",
+              "startMs": 1200,
+              "endMs": 1500,
+              "text": "of",
+              "highlighted": true
+            },
+            {
+              "id": "cap_pcfq4wfh",
+              "startMs": 1500,
+              "endMs": 1800,
+              "text": "a",
+              "highlighted": false
+            },
+            {
+              "id": "cap_u40z5is9",
+              "startMs": 1800,
+              "endMs": 2100,
+              "text": "clip",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ci1b9z7v",
+              "startMs": 2100,
+              "endMs": 2400,
+              "text": "decide",
+              "highlighted": false
+            },
+            {
+              "id": "cap_76hil2pi",
+              "startMs": 2400,
+              "endMs": 2700,
+              "text": "whether",
+              "highlighted": true
+            },
+            {
+              "id": "cap_jot4v8rn",
+              "startMs": 2700,
+              "endMs": 3000,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_cinib8e0",
+              "startMs": 3000,
+              "endMs": 3300,
+              "text": "viewer",
+              "highlighted": false
+            },
+            {
+              "id": "cap_i19vbuja",
+              "startMs": 3300,
+              "endMs": 3600,
+              "text": "swipes",
+              "highlighted": false
+            },
+            {
+              "id": "cap_5u4cxero",
+              "startMs": 3600,
+              "endMs": 3900,
+              "text": "away.",
+              "highlighted": true
+            }
+          ],
+          "aspectRatio": "9:16",
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+          "favorite": false,
+          "socialPackage": {
+            "title": "Polished Viral Angle: three seconds",
+            "postText": "The first three seconds of a clip decide whether the viewer swipes away. Follow for more.",
+            "hashtags": [
+              "#clipforgeai",
+              "#tiktokgrowth",
+              "#youtubeShorts",
+              "#instagramreels",
+              "#viralvideo"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with captions and keep the pace tight.",
+              "youtubeShorts": "Use a promise-led title with keyword clarity.",
+              "instagramReels": "Favor strong visual framing and concise text.",
+              "facebookReels": "Use a direct CTA with a practical benefit."
+            }
+          }
+        }
+      ],
+      "compareTopClipIds": [
+        "clip_1h29nl8t",
+        "clip_fuhajrzt",
+        "clip_izqjhga6"
+      ]
+    },
+    {
+      "id": "proj_hy34b1qj",
+      "userId": "user_demo",
+      "title": "Creator Growth Podcast Episode 12",
+      "status": "completed",
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=demo123",
+      "description": "Weekly creator strategy episode focused on short-form growth and content repurposing.",
+      "createdAt": "2026-03-19T14:55:18.732Z",
+      "updatedAt": "2026-03-19T19:55:18.732Z",
+      "targetPlatforms": [
+        "tiktok",
+        "youtubeShorts",
+        "instagramReels",
+        "facebookReels"
+      ],
+      "targetDurations": [
+        15,
+        30,
+        45,
+        60
+      ],
+      "sourceVideo": {
+        "id": "src_cdju90ip",
+        "projectId": "proj_hy34b1qj",
+        "sourceType": "youtube",
+        "sourceUrl": "https://www.youtube.com/watch?v=demo123",
+        "durationSec": 65,
+        "storagePath": "/samples/source-video.mp4"
+      },
+      "transcript": [
+        {
+          "id": "seg_8wzicfrs",
+          "startMs": 0,
+          "endMs": 9000,
+          "text": "Most creators spend hours chopping a single podcast into clips that still fail to hook in the first two seconds.",
+          "speaker": "Host",
+          "emphasis": 88,
+          "emotion": 72,
+          "keywords": [
+            "creators",
+            "podcast",
+            "hook"
+          ]
+        },
+        {
+          "id": "seg_fdlhue5m",
+          "startMs": 9000,
+          "endMs": 20000,
+          "text": "The winning move is identifying the exact moment where tension, payoff, and audience curiosity all spike together.",
+          "speaker": "Host",
+          "emphasis": 91,
+          "emotion": 79,
+          "keywords": [
+            "tension",
+            "payoff",
+            "curiosity"
+          ]
+        },
+        {
+          "id": "seg_zka6ynty",
+          "startMs": 20000,
+          "endMs": 33000,
+          "text": "When we detect emotion in the voice, movement on screen, and a clear promise, the retention curve usually jumps.",
+          "speaker": "Host",
+          "emphasis": 84,
+          "emotion": 83,
+          "keywords": [
+            "emotion",
+            "movement",
+            "retention"
+          ]
+        },
+        {
+          "id": "seg_jl92phmt",
+          "startMs": 33000,
+          "endMs": 47000,
+          "text": "Then we reframe for vertical, burn in captions, and end with a call to action that matches the topic instead of feeling bolted on.",
+          "speaker": "Host",
+          "emphasis": 80,
+          "emotion": 68,
+          "keywords": [
+            "vertical",
+            "captions",
+            "CTA"
+          ]
+        },
+        {
+          "id": "seg_0ayeb090",
+          "startMs": 47000,
+          "endMs": 65000,
+          "text": "That is how one long-form video becomes ten clips that are coherent, fast, and ready for TikTok, Shorts, and Reels.",
+          "speaker": "Host",
+          "emphasis": 93,
+          "emotion": 90,
+          "keywords": [
+            "coherent",
+            "TikTok",
+            "Reels"
+          ]
+        }
+      ],
+      "clips": [
+        {
+          "id": "cand_586w7wh4",
+          "title": "The Hook That Changes Retention",
+          "summary": "AI-selected highlight with strong hook, motion, and conversion potential.",
+          "startMs": 0,
+          "endMs": 15000,
+          "duration": 15,
+          "viralScore": 73,
+          "platforms": [
+            "tiktok",
+            "youtubeShorts"
+          ],
+          "badges": [
+            "Strong Hook",
+            "Best for Reels"
+          ],
+          "hookText": "This is where most creators lose the viewer.",
+          "ctaText": "Follow for more creator growth tactics",
+          "breakdown": {
+            "hook": 80,
+            "emotion": 70,
+            "clarity": 76,
+            "retention": 79,
+            "motion": 68,
+            "emphasis": 74,
+            "cta": 66,
+            "trend": 72,
+            "shareability": 78,
+            "replay": 70
+          },
+          "transcriptSegmentIds": [
+            "seg_8wzicfrs",
+            "seg_fdlhue5m",
+            "seg_zka6ynty"
+          ],
+          "projectId": "proj_hy34b1qj",
+          "aspectRatio": "9:16",
+          "captions": [
+            {
+              "id": "cap_ob2b7r9d",
+              "startMs": 0,
+              "endMs": 420,
+              "text": "Most",
+              "highlighted": true
+            },
+            {
+              "id": "cap_pxhzd0gk",
+              "startMs": 420,
+              "endMs": 840,
+              "text": "creators",
+              "highlighted": true
+            },
+            {
+              "id": "cap_3ord9qwk",
+              "startMs": 840,
+              "endMs": 1260,
+              "text": "spend",
+              "highlighted": true
+            },
+            {
+              "id": "cap_o72225ym",
+              "startMs": 1260,
+              "endMs": 1680,
+              "text": "hours",
+              "highlighted": true
+            },
+            {
+              "id": "cap_pz49p85f",
+              "startMs": 1680,
+              "endMs": 2100,
+              "text": "chopping",
+              "highlighted": true
+            },
+            {
+              "id": "cap_q1fa71kv",
+              "startMs": 2100,
+              "endMs": 2520,
+              "text": "a",
+              "highlighted": true
+            },
+            {
+              "id": "cap_hscxj4cv",
+              "startMs": 2520,
+              "endMs": 2940,
+              "text": "single",
+              "highlighted": true
+            },
+            {
+              "id": "cap_2hwd6bmr",
+              "startMs": 2940,
+              "endMs": 3360,
+              "text": "podcast",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ey3eybcy",
+              "startMs": 9000,
+              "endMs": 9420,
+              "text": "The",
+              "highlighted": true
+            },
+            {
+              "id": "cap_kuxa199f",
+              "startMs": 9420,
+              "endMs": 9840,
+              "text": "winning",
+              "highlighted": false
+            },
+            {
+              "id": "cap_fknctup4",
+              "startMs": 9840,
+              "endMs": 10260,
+              "text": "move",
+              "highlighted": false
+            },
+            {
+              "id": "cap_c5myfx6q",
+              "startMs": 10260,
+              "endMs": 10680,
+              "text": "is",
+              "highlighted": true
+            },
+            {
+              "id": "cap_gc5m6mza",
+              "startMs": 10680,
+              "endMs": 11100,
+              "text": "identifying",
+              "highlighted": false
+            },
+            {
+              "id": "cap_8a189iba",
+              "startMs": 11100,
+              "endMs": 11520,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_2uv1fdxy",
+              "startMs": 11520,
+              "endMs": 11940,
+              "text": "exact",
+              "highlighted": true
+            },
+            {
+              "id": "cap_oiuol9y4",
+              "startMs": 11940,
+              "endMs": 12360,
+              "text": "moment",
+              "highlighted": false
+            },
+            {
+              "id": "cap_8l5gefws",
+              "startMs": 20000,
+              "endMs": 20420,
+              "text": "When",
+              "highlighted": true
+            },
+            {
+              "id": "cap_jhs2148o",
+              "startMs": 20420,
+              "endMs": 20840,
+              "text": "we",
+              "highlighted": false
+            },
+            {
+              "id": "cap_xwuuezgm",
+              "startMs": 20840,
+              "endMs": 21260,
+              "text": "detect",
+              "highlighted": false
+            },
+            {
+              "id": "cap_p4k0z0oj",
+              "startMs": 21260,
+              "endMs": 21680,
+              "text": "emotion",
+              "highlighted": true
+            },
+            {
+              "id": "cap_fql287pl",
+              "startMs": 21680,
+              "endMs": 22100,
+              "text": "in",
+              "highlighted": false
+            },
+            {
+              "id": "cap_czr4fgfe",
+              "startMs": 22100,
+              "endMs": 22520,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_qw98froz",
+              "startMs": 22520,
+              "endMs": 22940,
+              "text": "voice,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_1dmp4o9u",
+              "startMs": 22940,
+              "endMs": 23360,
+              "text": "movement",
+              "highlighted": false
+            },
+            {
+              "id": "cap_xemx76cz",
+              "startMs": 33000,
+              "endMs": 33420,
+              "text": "Then",
+              "highlighted": true
+            },
+            {
+              "id": "cap_tm43t8di",
+              "startMs": 33420,
+              "endMs": 33840,
+              "text": "we",
+              "highlighted": false
+            },
+            {
+              "id": "cap_if471lut",
+              "startMs": 33840,
+              "endMs": 34260,
+              "text": "reframe",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ofuk3j9p",
+              "startMs": 34260,
+              "endMs": 34680,
+              "text": "for",
+              "highlighted": true
+            },
+            {
+              "id": "cap_09jds1rp",
+              "startMs": 34680,
+              "endMs": 35100,
+              "text": "vertical,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ww0qyywo",
+              "startMs": 35100,
+              "endMs": 35520,
+              "text": "burn",
+              "highlighted": false
+            },
+            {
+              "id": "cap_4ny0nalp",
+              "startMs": 35520,
+              "endMs": 35940,
+              "text": "in",
+              "highlighted": true
+            },
+            {
+              "id": "cap_96mkzt7f",
+              "startMs": 35940,
+              "endMs": 36360,
+              "text": "captions,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_pgc8t1zs",
+              "startMs": 47000,
+              "endMs": 47420,
+              "text": "That",
+              "highlighted": true
+            },
+            {
+              "id": "cap_7b77ols7",
+              "startMs": 47420,
+              "endMs": 47840,
+              "text": "is",
+              "highlighted": false
+            },
+            {
+              "id": "cap_051k9yqz",
+              "startMs": 47840,
+              "endMs": 48260,
+              "text": "how",
+              "highlighted": false
+            },
+            {
+              "id": "cap_uyc31jmm",
+              "startMs": 48260,
+              "endMs": 48680,
+              "text": "one",
+              "highlighted": true
+            },
+            {
+              "id": "cap_uzfwj268",
+              "startMs": 48680,
+              "endMs": 49100,
+              "text": "long-form",
+              "highlighted": false
+            },
+            {
+              "id": "cap_4jb246e3",
+              "startMs": 49100,
+              "endMs": 49520,
+              "text": "video",
+              "highlighted": false
+            },
+            {
+              "id": "cap_e1d2100o",
+              "startMs": 49520,
+              "endMs": 49940,
+              "text": "becomes",
+              "highlighted": true
+            },
+            {
+              "id": "cap_m47pf7y0",
+              "startMs": 49940,
+              "endMs": 50360,
+              "text": "ten",
+              "highlighted": false
+            }
+          ],
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-14900000000?auto=format&fit=crop&w=900&q=80",
+          "favorite": true,
+          "socialPackage": {
+            "title": "The Hook That Changes Retention",
+            "postText": "This is where most creators lose the viewer. Follow for more creator growth tactics.",
+            "hashtags": [
+              "#viralclips",
+              "#contentstrategy",
+              "#shortformvideo",
+              "#creatorgrowth"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with the hook text overlay and keep captions bold.",
+              "youtubeShorts": "Use a curiosity title with a promise-driven CTA.",
+              "instagramReels": "Pair with a concise caption and save-worthy ending.",
+              "facebookReels": "Keep the CTA explicit and benefit-focused."
+            }
+          }
+        },
+        {
+          "id": "cand_harq0wha",
+          "title": "Why Vertical Clips Win Faster",
+          "summary": "AI-selected highlight with strong hook, motion, and conversion potential.",
+          "startMs": 5500,
+          "endMs": 35500,
+          "duration": 30,
+          "viralScore": 80,
+          "platforms": [
+            "tiktok",
+            "youtubeShorts",
+            "instagramReels"
+          ],
+          "badges": [
+            "High Emotion",
+            "Replay Value"
+          ],
+          "hookText": "Watch what happens when the hook lands immediately.",
+          "ctaText": "Subscribe for more short-form strategy",
+          "breakdown": {
+            "hook": 87,
+            "emotion": 77,
+            "clarity": 83,
+            "retention": 86,
+            "motion": 75,
+            "emphasis": 81,
+            "cta": 73,
+            "trend": 79,
+            "shareability": 85,
+            "replay": 77
+          },
+          "transcriptSegmentIds": [
+            "seg_fdlhue5m",
+            "seg_zka6ynty",
+            "seg_jl92phmt"
+          ],
+          "projectId": "proj_hy34b1qj",
+          "aspectRatio": "9:16",
+          "captions": [
+            {
+              "id": "cap_2170klwv",
+              "startMs": 0,
+              "endMs": 420,
+              "text": "Most",
+              "highlighted": true
+            },
+            {
+              "id": "cap_wrp349qj",
+              "startMs": 420,
+              "endMs": 840,
+              "text": "creators",
+              "highlighted": false
+            },
+            {
+              "id": "cap_0yhil3wh",
+              "startMs": 840,
+              "endMs": 1260,
+              "text": "spend",
+              "highlighted": false
+            },
+            {
+              "id": "cap_tyva24rf",
+              "startMs": 1260,
+              "endMs": 1680,
+              "text": "hours",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ep53lvnv",
+              "startMs": 1680,
+              "endMs": 2100,
+              "text": "chopping",
+              "highlighted": false
+            },
+            {
+              "id": "cap_i86bspqv",
+              "startMs": 2100,
+              "endMs": 2520,
+              "text": "a",
+              "highlighted": false
+            },
+            {
+              "id": "cap_udh9ti7u",
+              "startMs": 2520,
+              "endMs": 2940,
+              "text": "single",
+              "highlighted": true
+            },
+            {
+              "id": "cap_gf17cvh4",
+              "startMs": 2940,
+              "endMs": 3360,
+              "text": "podcast",
+              "highlighted": false
+            },
+            {
+              "id": "cap_qif84qzs",
+              "startMs": 9000,
+              "endMs": 9420,
+              "text": "The",
+              "highlighted": true
+            },
+            {
+              "id": "cap_2oa0i4xo",
+              "startMs": 9420,
+              "endMs": 9840,
+              "text": "winning",
+              "highlighted": true
+            },
+            {
+              "id": "cap_emyc7wal",
+              "startMs": 9840,
+              "endMs": 10260,
+              "text": "move",
+              "highlighted": true
+            },
+            {
+              "id": "cap_s46yhz08",
+              "startMs": 10260,
+              "endMs": 10680,
+              "text": "is",
+              "highlighted": true
+            },
+            {
+              "id": "cap_wastygh9",
+              "startMs": 10680,
+              "endMs": 11100,
+              "text": "identifying",
+              "highlighted": true
+            },
+            {
+              "id": "cap_1840pntx",
+              "startMs": 11100,
+              "endMs": 11520,
+              "text": "the",
+              "highlighted": true
+            },
+            {
+              "id": "cap_fibx142r",
+              "startMs": 11520,
+              "endMs": 11940,
+              "text": "exact",
+              "highlighted": true
+            },
+            {
+              "id": "cap_fzepb4j7",
+              "startMs": 11940,
+              "endMs": 12360,
+              "text": "moment",
+              "highlighted": true
+            },
+            {
+              "id": "cap_g3mzk5gl",
+              "startMs": 20000,
+              "endMs": 20420,
+              "text": "When",
+              "highlighted": true
+            },
+            {
+              "id": "cap_fmj5cql8",
+              "startMs": 20420,
+              "endMs": 20840,
+              "text": "we",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ha88t6ot",
+              "startMs": 20840,
+              "endMs": 21260,
+              "text": "detect",
+              "highlighted": false
+            },
+            {
+              "id": "cap_tv83mz3i",
+              "startMs": 21260,
+              "endMs": 21680,
+              "text": "emotion",
+              "highlighted": true
+            },
+            {
+              "id": "cap_bjk414ij",
+              "startMs": 21680,
+              "endMs": 22100,
+              "text": "in",
+              "highlighted": false
+            },
+            {
+              "id": "cap_40bava1b",
+              "startMs": 22100,
+              "endMs": 22520,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_3abzn2nr",
+              "startMs": 22520,
+              "endMs": 22940,
+              "text": "voice,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ofq6uos0",
+              "startMs": 22940,
+              "endMs": 23360,
+              "text": "movement",
+              "highlighted": false
+            },
+            {
+              "id": "cap_c3z327bp",
+              "startMs": 33000,
+              "endMs": 33420,
+              "text": "Then",
+              "highlighted": true
+            },
+            {
+              "id": "cap_shen3rn4",
+              "startMs": 33420,
+              "endMs": 33840,
+              "text": "we",
+              "highlighted": false
+            },
+            {
+              "id": "cap_yq9vn7ky",
+              "startMs": 33840,
+              "endMs": 34260,
+              "text": "reframe",
+              "highlighted": false
+            },
+            {
+              "id": "cap_o5lami8j",
+              "startMs": 34260,
+              "endMs": 34680,
+              "text": "for",
+              "highlighted": true
+            },
+            {
+              "id": "cap_1x4ji8lb",
+              "startMs": 34680,
+              "endMs": 35100,
+              "text": "vertical,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_a08ky2wk",
+              "startMs": 35100,
+              "endMs": 35520,
+              "text": "burn",
+              "highlighted": false
+            },
+            {
+              "id": "cap_c1a8ro4l",
+              "startMs": 35520,
+              "endMs": 35940,
+              "text": "in",
+              "highlighted": true
+            },
+            {
+              "id": "cap_jko15hp5",
+              "startMs": 35940,
+              "endMs": 36360,
+              "text": "captions,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_bjo1wjev",
+              "startMs": 47000,
+              "endMs": 47420,
+              "text": "That",
+              "highlighted": true
+            },
+            {
+              "id": "cap_yxilz2na",
+              "startMs": 47420,
+              "endMs": 47840,
+              "text": "is",
+              "highlighted": false
+            },
+            {
+              "id": "cap_yr5qq7wf",
+              "startMs": 47840,
+              "endMs": 48260,
+              "text": "how",
+              "highlighted": false
+            },
+            {
+              "id": "cap_80x2yoo4",
+              "startMs": 48260,
+              "endMs": 48680,
+              "text": "one",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ukkn5ob7",
+              "startMs": 48680,
+              "endMs": 49100,
+              "text": "long-form",
+              "highlighted": false
+            },
+            {
+              "id": "cap_918j4su2",
+              "startMs": 49100,
+              "endMs": 49520,
+              "text": "video",
+              "highlighted": false
+            },
+            {
+              "id": "cap_namvwl8l",
+              "startMs": 49520,
+              "endMs": 49940,
+              "text": "becomes",
+              "highlighted": true
+            },
+            {
+              "id": "cap_y0rgvxf6",
+              "startMs": 49940,
+              "endMs": 50360,
+              "text": "ten",
+              "highlighted": false
+            }
+          ],
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-14910000000?auto=format&fit=crop&w=900&q=80",
+          "favorite": true,
+          "socialPackage": {
+            "title": "Why Vertical Clips Win Faster",
+            "postText": "Watch what happens when the hook lands immediately. Subscribe for more short-form strategy.",
+            "hashtags": [
+              "#viralclips",
+              "#contentstrategy",
+              "#shortformvideo",
+              "#creatorgrowth"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with the hook text overlay and keep captions bold.",
+              "youtubeShorts": "Use a curiosity title with a promise-driven CTA.",
+              "instagramReels": "Pair with a concise caption and save-worthy ending.",
+              "facebookReels": "Keep the CTA explicit and benefit-focused."
+            }
+          }
+        },
+        {
+          "id": "cand_jdhfazmt",
+          "title": "The Exact Viral Editing Stack",
+          "summary": "AI-selected highlight with strong hook, motion, and conversion potential.",
+          "startMs": 11000,
+          "endMs": 56000,
+          "duration": 45,
+          "viralScore": 85,
+          "platforms": [
+            "tiktok",
+            "youtubeShorts",
+            "instagramReels",
+            "facebookReels"
+          ],
+          "badges": [
+            "Best CTA",
+            "High Retention"
+          ],
+          "hookText": "This editing move changes everything.",
+          "ctaText": "Comment if you want the full workflow",
+          "breakdown": {
+            "hook": 80,
+            "emotion": 84,
+            "clarity": 78,
+            "retention": 93,
+            "motion": 82,
+            "emphasis": 88,
+            "cta": 80,
+            "trend": 86,
+            "shareability": 92,
+            "replay": 84
+          },
+          "transcriptSegmentIds": [
+            "seg_zka6ynty",
+            "seg_jl92phmt",
+            "seg_0ayeb090"
+          ],
+          "projectId": "proj_hy34b1qj",
+          "aspectRatio": "9:16",
+          "captions": [
+            {
+              "id": "cap_zqhk00hx",
+              "startMs": 0,
+              "endMs": 420,
+              "text": "Most",
+              "highlighted": true
+            },
+            {
+              "id": "cap_b1jwk4pf",
+              "startMs": 420,
+              "endMs": 840,
+              "text": "creators",
+              "highlighted": false
+            },
+            {
+              "id": "cap_eyp7sz1j",
+              "startMs": 840,
+              "endMs": 1260,
+              "text": "spend",
+              "highlighted": false
+            },
+            {
+              "id": "cap_anonj2nw",
+              "startMs": 1260,
+              "endMs": 1680,
+              "text": "hours",
+              "highlighted": true
+            },
+            {
+              "id": "cap_6mra7kup",
+              "startMs": 1680,
+              "endMs": 2100,
+              "text": "chopping",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ql8w7eca",
+              "startMs": 2100,
+              "endMs": 2520,
+              "text": "a",
+              "highlighted": false
+            },
+            {
+              "id": "cap_vt49jfhq",
+              "startMs": 2520,
+              "endMs": 2940,
+              "text": "single",
+              "highlighted": true
+            },
+            {
+              "id": "cap_9y787ndu",
+              "startMs": 2940,
+              "endMs": 3360,
+              "text": "podcast",
+              "highlighted": false
+            },
+            {
+              "id": "cap_qpatkvn5",
+              "startMs": 9000,
+              "endMs": 9420,
+              "text": "The",
+              "highlighted": true
+            },
+            {
+              "id": "cap_o5i58pk5",
+              "startMs": 9420,
+              "endMs": 9840,
+              "text": "winning",
+              "highlighted": false
+            },
+            {
+              "id": "cap_vnqvsjxv",
+              "startMs": 9840,
+              "endMs": 10260,
+              "text": "move",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ol6q2wxg",
+              "startMs": 10260,
+              "endMs": 10680,
+              "text": "is",
+              "highlighted": true
+            },
+            {
+              "id": "cap_uzbhlxck",
+              "startMs": 10680,
+              "endMs": 11100,
+              "text": "identifying",
+              "highlighted": false
+            },
+            {
+              "id": "cap_y4cwmk6b",
+              "startMs": 11100,
+              "endMs": 11520,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_794kbi11",
+              "startMs": 11520,
+              "endMs": 11940,
+              "text": "exact",
+              "highlighted": true
+            },
+            {
+              "id": "cap_fexwb46h",
+              "startMs": 11940,
+              "endMs": 12360,
+              "text": "moment",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ps73jyl7",
+              "startMs": 20000,
+              "endMs": 20420,
+              "text": "When",
+              "highlighted": true
+            },
+            {
+              "id": "cap_iw5jh0jz",
+              "startMs": 20420,
+              "endMs": 20840,
+              "text": "we",
+              "highlighted": true
+            },
+            {
+              "id": "cap_vtuf2ird",
+              "startMs": 20840,
+              "endMs": 21260,
+              "text": "detect",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ks935fsz",
+              "startMs": 21260,
+              "endMs": 21680,
+              "text": "emotion",
+              "highlighted": true
+            },
+            {
+              "id": "cap_85vc7uhe",
+              "startMs": 21680,
+              "endMs": 22100,
+              "text": "in",
+              "highlighted": true
+            },
+            {
+              "id": "cap_3zhqw0yb",
+              "startMs": 22100,
+              "endMs": 22520,
+              "text": "the",
+              "highlighted": true
+            },
+            {
+              "id": "cap_6cy9h2kq",
+              "startMs": 22520,
+              "endMs": 22940,
+              "text": "voice,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_8iqt6s6j",
+              "startMs": 22940,
+              "endMs": 23360,
+              "text": "movement",
+              "highlighted": true
+            },
+            {
+              "id": "cap_cvvbicoy",
+              "startMs": 33000,
+              "endMs": 33420,
+              "text": "Then",
+              "highlighted": true
+            },
+            {
+              "id": "cap_lg3keczi",
+              "startMs": 33420,
+              "endMs": 33840,
+              "text": "we",
+              "highlighted": false
+            },
+            {
+              "id": "cap_pxozi4gz",
+              "startMs": 33840,
+              "endMs": 34260,
+              "text": "reframe",
+              "highlighted": false
+            },
+            {
+              "id": "cap_wsdhy10c",
+              "startMs": 34260,
+              "endMs": 34680,
+              "text": "for",
+              "highlighted": true
+            },
+            {
+              "id": "cap_31zdm9xv",
+              "startMs": 34680,
+              "endMs": 35100,
+              "text": "vertical,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_wmmp08oq",
+              "startMs": 35100,
+              "endMs": 35520,
+              "text": "burn",
+              "highlighted": false
+            },
+            {
+              "id": "cap_yk62n5sf",
+              "startMs": 35520,
+              "endMs": 35940,
+              "text": "in",
+              "highlighted": true
+            },
+            {
+              "id": "cap_7ux2kzse",
+              "startMs": 35940,
+              "endMs": 36360,
+              "text": "captions,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_jzeku15d",
+              "startMs": 47000,
+              "endMs": 47420,
+              "text": "That",
+              "highlighted": true
+            },
+            {
+              "id": "cap_pr9279f4",
+              "startMs": 47420,
+              "endMs": 47840,
+              "text": "is",
+              "highlighted": false
+            },
+            {
+              "id": "cap_8fmk7zo7",
+              "startMs": 47840,
+              "endMs": 48260,
+              "text": "how",
+              "highlighted": false
+            },
+            {
+              "id": "cap_8lf7fhtn",
+              "startMs": 48260,
+              "endMs": 48680,
+              "text": "one",
+              "highlighted": true
+            },
+            {
+              "id": "cap_p0j02iu7",
+              "startMs": 48680,
+              "endMs": 49100,
+              "text": "long-form",
+              "highlighted": false
+            },
+            {
+              "id": "cap_japlolw6",
+              "startMs": 49100,
+              "endMs": 49520,
+              "text": "video",
+              "highlighted": false
+            },
+            {
+              "id": "cap_3h0sdfw5",
+              "startMs": 49520,
+              "endMs": 49940,
+              "text": "becomes",
+              "highlighted": true
+            },
+            {
+              "id": "cap_w4bw4sd9",
+              "startMs": 49940,
+              "endMs": 50360,
+              "text": "ten",
+              "highlighted": false
+            }
+          ],
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-14920000000?auto=format&fit=crop&w=900&q=80",
+          "favorite": false,
+          "socialPackage": {
+            "title": "The Exact Viral Editing Stack",
+            "postText": "This editing move changes everything. Comment if you want the full workflow.",
+            "hashtags": [
+              "#viralclips",
+              "#contentstrategy",
+              "#shortformvideo",
+              "#creatorgrowth"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with the hook text overlay and keep captions bold.",
+              "youtubeShorts": "Use a curiosity title with a promise-driven CTA.",
+              "instagramReels": "Pair with a concise caption and save-worthy ending.",
+              "facebookReels": "Keep the CTA explicit and benefit-focused."
+            }
+          }
+        },
+        {
+          "id": "cand_v68vg1mj",
+          "title": "How to Build Better Reels",
+          "summary": "AI-selected highlight with strong hook, motion, and conversion potential.",
+          "startMs": 16500,
+          "endMs": 76500,
+          "duration": 60,
+          "viralScore": 79,
+          "platforms": [
+            "tiktok",
+            "youtubeShorts"
+          ],
+          "badges": [
+            "Fast Pacing",
+            "Best for Shorts"
+          ],
+          "hookText": "Most people miss this retention trick.",
+          "ctaText": "Visit our site to automate your clips",
+          "breakdown": {
+            "hook": 87,
+            "emotion": 71,
+            "clarity": 85,
+            "retention": 84,
+            "motion": 69,
+            "emphasis": 77,
+            "cta": 87,
+            "trend": 74,
+            "shareability": 84,
+            "replay": 73
+          },
+          "transcriptSegmentIds": [
+            "seg_8wzicfrs",
+            "seg_fdlhue5m",
+            "seg_zka6ynty"
+          ],
+          "projectId": "proj_hy34b1qj",
+          "aspectRatio": "9:16",
+          "captions": [
+            {
+              "id": "cap_jp0jbupq",
+              "startMs": 0,
+              "endMs": 420,
+              "text": "Most",
+              "highlighted": true
+            },
+            {
+              "id": "cap_hruab7p7",
+              "startMs": 420,
+              "endMs": 840,
+              "text": "creators",
+              "highlighted": false
+            },
+            {
+              "id": "cap_rwbeh8pg",
+              "startMs": 840,
+              "endMs": 1260,
+              "text": "spend",
+              "highlighted": false
+            },
+            {
+              "id": "cap_l17jvcch",
+              "startMs": 1260,
+              "endMs": 1680,
+              "text": "hours",
+              "highlighted": true
+            },
+            {
+              "id": "cap_c8v7144e",
+              "startMs": 1680,
+              "endMs": 2100,
+              "text": "chopping",
+              "highlighted": false
+            },
+            {
+              "id": "cap_6e2zi83q",
+              "startMs": 2100,
+              "endMs": 2520,
+              "text": "a",
+              "highlighted": false
+            },
+            {
+              "id": "cap_pgtn3x40",
+              "startMs": 2520,
+              "endMs": 2940,
+              "text": "single",
+              "highlighted": true
+            },
+            {
+              "id": "cap_130x63y8",
+              "startMs": 2940,
+              "endMs": 3360,
+              "text": "podcast",
+              "highlighted": false
+            },
+            {
+              "id": "cap_jldviz9r",
+              "startMs": 9000,
+              "endMs": 9420,
+              "text": "The",
+              "highlighted": true
+            },
+            {
+              "id": "cap_eqetw9t4",
+              "startMs": 9420,
+              "endMs": 9840,
+              "text": "winning",
+              "highlighted": false
+            },
+            {
+              "id": "cap_bxqzbj5h",
+              "startMs": 9840,
+              "endMs": 10260,
+              "text": "move",
+              "highlighted": false
+            },
+            {
+              "id": "cap_w3rosfcv",
+              "startMs": 10260,
+              "endMs": 10680,
+              "text": "is",
+              "highlighted": true
+            },
+            {
+              "id": "cap_xaiikoda",
+              "startMs": 10680,
+              "endMs": 11100,
+              "text": "identifying",
+              "highlighted": false
+            },
+            {
+              "id": "cap_um8x5exo",
+              "startMs": 11100,
+              "endMs": 11520,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_y1aczrjt",
+              "startMs": 11520,
+              "endMs": 11940,
+              "text": "exact",
+              "highlighted": true
+            },
+            {
+              "id": "cap_7j07rdy6",
+              "startMs": 11940,
+              "endMs": 12360,
+              "text": "moment",
+              "highlighted": false
+            },
+            {
+              "id": "cap_plg1sipj",
+              "startMs": 20000,
+              "endMs": 20420,
+              "text": "When",
+              "highlighted": true
+            },
+            {
+              "id": "cap_0eovrx82",
+              "startMs": 20420,
+              "endMs": 20840,
+              "text": "we",
+              "highlighted": false
+            },
+            {
+              "id": "cap_5llk74g2",
+              "startMs": 20840,
+              "endMs": 21260,
+              "text": "detect",
+              "highlighted": false
+            },
+            {
+              "id": "cap_6dp7ysiz",
+              "startMs": 21260,
+              "endMs": 21680,
+              "text": "emotion",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ya2nviy4",
+              "startMs": 21680,
+              "endMs": 22100,
+              "text": "in",
+              "highlighted": false
+            },
+            {
+              "id": "cap_2brczu18",
+              "startMs": 22100,
+              "endMs": 22520,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_zayi0j93",
+              "startMs": 22520,
+              "endMs": 22940,
+              "text": "voice,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ovlfsebh",
+              "startMs": 22940,
+              "endMs": 23360,
+              "text": "movement",
+              "highlighted": false
+            },
+            {
+              "id": "cap_bnwae7p7",
+              "startMs": 33000,
+              "endMs": 33420,
+              "text": "Then",
+              "highlighted": true
+            },
+            {
+              "id": "cap_kz45v7qz",
+              "startMs": 33420,
+              "endMs": 33840,
+              "text": "we",
+              "highlighted": true
+            },
+            {
+              "id": "cap_7f3jtcz5",
+              "startMs": 33840,
+              "endMs": 34260,
+              "text": "reframe",
+              "highlighted": true
+            },
+            {
+              "id": "cap_b28rb6c7",
+              "startMs": 34260,
+              "endMs": 34680,
+              "text": "for",
+              "highlighted": true
+            },
+            {
+              "id": "cap_aeujyqfz",
+              "startMs": 34680,
+              "endMs": 35100,
+              "text": "vertical,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_v0p82y9x",
+              "startMs": 35100,
+              "endMs": 35520,
+              "text": "burn",
+              "highlighted": true
+            },
+            {
+              "id": "cap_2rtct1zo",
+              "startMs": 35520,
+              "endMs": 35940,
+              "text": "in",
+              "highlighted": true
+            },
+            {
+              "id": "cap_123mne4i",
+              "startMs": 35940,
+              "endMs": 36360,
+              "text": "captions,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_91zvl1by",
+              "startMs": 47000,
+              "endMs": 47420,
+              "text": "That",
+              "highlighted": true
+            },
+            {
+              "id": "cap_2sb032m8",
+              "startMs": 47420,
+              "endMs": 47840,
+              "text": "is",
+              "highlighted": false
+            },
+            {
+              "id": "cap_p303irhg",
+              "startMs": 47840,
+              "endMs": 48260,
+              "text": "how",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ed33sn6s",
+              "startMs": 48260,
+              "endMs": 48680,
+              "text": "one",
+              "highlighted": true
+            },
+            {
+              "id": "cap_wd1o0qq3",
+              "startMs": 48680,
+              "endMs": 49100,
+              "text": "long-form",
+              "highlighted": false
+            },
+            {
+              "id": "cap_5gsy7d66",
+              "startMs": 49100,
+              "endMs": 49520,
+              "text": "video",
+              "highlighted": false
+            },
+            {
+              "id": "cap_9fpw2vzm",
+              "startMs": 49520,
+              "endMs": 49940,
+              "text": "becomes",
+              "highlighted": true
+            },
+            {
+              "id": "cap_flf6us7y",
+              "startMs": 49940,
+              "endMs": 50360,
+              "text": "ten",
+              "highlighted": false
+            }
+          ],
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-14930000000?auto=format&fit=crop&w=900&q=80",
+          "favorite": false,
+          "socialPackage": {
+            "title": "How to Build Better Reels",
+            "postText": "Most people miss this retention trick. Visit our site to automate your clips.",
+            "hashtags": [
+              "#viralclips",
+              "#contentstrategy",
+              "#shortformvideo",
+              "#creatorgrowth"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with the hook text overlay and keep captions bold.",
+              "youtubeShorts": "Use a curiosity title with a promise-driven CTA.",
+              "instagramReels": "Pair with a concise caption and save-worthy ending.",
+              "facebookReels": "Keep the CTA explicit and benefit-focused."
+            }
+          }
+        },
+        {
+          "id": "cand_z9sf1zp2",
+          "title": "The Creator Retention Formula",
+          "summary": "AI-selected highlight with strong hook, motion, and conversion potential.",
+          "startMs": 22000,
+          "endMs": 37000,
+          "duration": 15,
+          "viralScore": 81,
+          "platforms": [
+            "tiktok",
+            "youtubeShorts",
+            "instagramReels"
+          ],
+          "badges": [
+            "Strong Hook",
+            "Best for Reels"
+          ],
+          "hookText": "This is where most creators lose the viewer.",
+          "ctaText": "Follow for more creator growth tactics",
+          "breakdown": {
+            "hook": 80,
+            "emotion": 78,
+            "clarity": 80,
+            "retention": 91,
+            "motion": 76,
+            "emphasis": 84,
+            "cta": 70,
+            "trend": 81,
+            "shareability": 91,
+            "replay": 80
+          },
+          "transcriptSegmentIds": [
+            "seg_fdlhue5m",
+            "seg_zka6ynty",
+            "seg_jl92phmt"
+          ],
+          "projectId": "proj_hy34b1qj",
+          "aspectRatio": "9:16",
+          "captions": [
+            {
+              "id": "cap_ph8jdccq",
+              "startMs": 0,
+              "endMs": 420,
+              "text": "Most",
+              "highlighted": true
+            },
+            {
+              "id": "cap_uqh6r3db",
+              "startMs": 420,
+              "endMs": 840,
+              "text": "creators",
+              "highlighted": false
+            },
+            {
+              "id": "cap_wk29y03y",
+              "startMs": 840,
+              "endMs": 1260,
+              "text": "spend",
+              "highlighted": false
+            },
+            {
+              "id": "cap_dm4739e6",
+              "startMs": 1260,
+              "endMs": 1680,
+              "text": "hours",
+              "highlighted": true
+            },
+            {
+              "id": "cap_zc2j497i",
+              "startMs": 1680,
+              "endMs": 2100,
+              "text": "chopping",
+              "highlighted": false
+            },
+            {
+              "id": "cap_fkegqvt6",
+              "startMs": 2100,
+              "endMs": 2520,
+              "text": "a",
+              "highlighted": false
+            },
+            {
+              "id": "cap_1l0vh7i1",
+              "startMs": 2520,
+              "endMs": 2940,
+              "text": "single",
+              "highlighted": true
+            },
+            {
+              "id": "cap_18b01q9u",
+              "startMs": 2940,
+              "endMs": 3360,
+              "text": "podcast",
+              "highlighted": false
+            },
+            {
+              "id": "cap_llvck0wu",
+              "startMs": 9000,
+              "endMs": 9420,
+              "text": "The",
+              "highlighted": true
+            },
+            {
+              "id": "cap_2qdpphbv",
+              "startMs": 9420,
+              "endMs": 9840,
+              "text": "winning",
+              "highlighted": false
+            },
+            {
+              "id": "cap_63s9zqw1",
+              "startMs": 9840,
+              "endMs": 10260,
+              "text": "move",
+              "highlighted": false
+            },
+            {
+              "id": "cap_mubychee",
+              "startMs": 10260,
+              "endMs": 10680,
+              "text": "is",
+              "highlighted": true
+            },
+            {
+              "id": "cap_d4re0hxy",
+              "startMs": 10680,
+              "endMs": 11100,
+              "text": "identifying",
+              "highlighted": false
+            },
+            {
+              "id": "cap_lpxg8wmk",
+              "startMs": 11100,
+              "endMs": 11520,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_a0rdu1cu",
+              "startMs": 11520,
+              "endMs": 11940,
+              "text": "exact",
+              "highlighted": true
+            },
+            {
+              "id": "cap_yw278z2k",
+              "startMs": 11940,
+              "endMs": 12360,
+              "text": "moment",
+              "highlighted": false
+            },
+            {
+              "id": "cap_rz7ectbs",
+              "startMs": 20000,
+              "endMs": 20420,
+              "text": "When",
+              "highlighted": true
+            },
+            {
+              "id": "cap_jhtn7s4c",
+              "startMs": 20420,
+              "endMs": 20840,
+              "text": "we",
+              "highlighted": false
+            },
+            {
+              "id": "cap_hmiwcahz",
+              "startMs": 20840,
+              "endMs": 21260,
+              "text": "detect",
+              "highlighted": false
+            },
+            {
+              "id": "cap_h4onqj5r",
+              "startMs": 21260,
+              "endMs": 21680,
+              "text": "emotion",
+              "highlighted": true
+            },
+            {
+              "id": "cap_jr8pqzp9",
+              "startMs": 21680,
+              "endMs": 22100,
+              "text": "in",
+              "highlighted": false
+            },
+            {
+              "id": "cap_1ry4o3cs",
+              "startMs": 22100,
+              "endMs": 22520,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_rfizjsma",
+              "startMs": 22520,
+              "endMs": 22940,
+              "text": "voice,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ogwtqaa5",
+              "startMs": 22940,
+              "endMs": 23360,
+              "text": "movement",
+              "highlighted": false
+            },
+            {
+              "id": "cap_3vgcjbki",
+              "startMs": 33000,
+              "endMs": 33420,
+              "text": "Then",
+              "highlighted": true
+            },
+            {
+              "id": "cap_7sq31mub",
+              "startMs": 33420,
+              "endMs": 33840,
+              "text": "we",
+              "highlighted": false
+            },
+            {
+              "id": "cap_a0ydwhqa",
+              "startMs": 33840,
+              "endMs": 34260,
+              "text": "reframe",
+              "highlighted": false
+            },
+            {
+              "id": "cap_qaq4m4pj",
+              "startMs": 34260,
+              "endMs": 34680,
+              "text": "for",
+              "highlighted": true
+            },
+            {
+              "id": "cap_1mcm33fx",
+              "startMs": 34680,
+              "endMs": 35100,
+              "text": "vertical,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_pd5qe7gi",
+              "startMs": 35100,
+              "endMs": 35520,
+              "text": "burn",
+              "highlighted": false
+            },
+            {
+              "id": "cap_5lf0qi3h",
+              "startMs": 35520,
+              "endMs": 35940,
+              "text": "in",
+              "highlighted": true
+            },
+            {
+              "id": "cap_45g962ib",
+              "startMs": 35940,
+              "endMs": 36360,
+              "text": "captions,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_d0ow6hay",
+              "startMs": 47000,
+              "endMs": 47420,
+              "text": "That",
+              "highlighted": true
+            },
+            {
+              "id": "cap_thav8xlp",
+              "startMs": 47420,
+              "endMs": 47840,
+              "text": "is",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ffilznhy",
+              "startMs": 47840,
+              "endMs": 48260,
+              "text": "how",
+              "highlighted": true
+            },
+            {
+              "id": "cap_dz5zv87y",
+              "startMs": 48260,
+              "endMs": 48680,
+              "text": "one",
+              "highlighted": true
+            },
+            {
+              "id": "cap_a3r35wyj",
+              "startMs": 48680,
+              "endMs": 49100,
+              "text": "long-form",
+              "highlighted": true
+            },
+            {
+              "id": "cap_l6apm02d",
+              "startMs": 49100,
+              "endMs": 49520,
+              "text": "video",
+              "highlighted": true
+            },
+            {
+              "id": "cap_u0lmqxsq",
+              "startMs": 49520,
+              "endMs": 49940,
+              "text": "becomes",
+              "highlighted": true
+            },
+            {
+              "id": "cap_00x06y9n",
+              "startMs": 49940,
+              "endMs": 50360,
+              "text": "ten",
+              "highlighted": true
+            }
+          ],
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-14940000000?auto=format&fit=crop&w=900&q=80",
+          "favorite": false,
+          "socialPackage": {
+            "title": "The Creator Retention Formula",
+            "postText": "This is where most creators lose the viewer. Follow for more creator growth tactics.",
+            "hashtags": [
+              "#viralclips",
+              "#contentstrategy",
+              "#shortformvideo",
+              "#creatorgrowth"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with the hook text overlay and keep captions bold.",
+              "youtubeShorts": "Use a curiosity title with a promise-driven CTA.",
+              "instagramReels": "Pair with a concise caption and save-worthy ending.",
+              "facebookReels": "Keep the CTA explicit and benefit-focused."
+            }
+          }
+        },
+        {
+          "id": "cand_i9nvzp8n",
+          "title": "Use Emotion to Lift Watch Time",
+          "summary": "AI-selected highlight with strong hook, motion, and conversion potential.",
+          "startMs": 27500,
+          "endMs": 57500,
+          "duration": 30,
+          "viralScore": 85,
+          "platforms": [
+            "tiktok",
+            "youtubeShorts",
+            "instagramReels",
+            "facebookReels"
+          ],
+          "badges": [
+            "High Emotion",
+            "Replay Value"
+          ],
+          "hookText": "Watch what happens when the hook lands immediately.",
+          "ctaText": "Subscribe for more short-form strategy",
+          "breakdown": {
+            "hook": 87,
+            "emotion": 85,
+            "clarity": 87,
+            "retention": 82,
+            "motion": 83,
+            "emphasis": 91,
+            "cta": 77,
+            "trend": 88,
+            "shareability": 83,
+            "replay": 87
+          },
+          "transcriptSegmentIds": [
+            "seg_zka6ynty",
+            "seg_jl92phmt",
+            "seg_0ayeb090"
+          ],
+          "projectId": "proj_hy34b1qj",
+          "aspectRatio": "9:16",
+          "captions": [
+            {
+              "id": "cap_pbv0xpkp",
+              "startMs": 0,
+              "endMs": 420,
+              "text": "Most",
+              "highlighted": true
+            },
+            {
+              "id": "cap_mprxvrvq",
+              "startMs": 420,
+              "endMs": 840,
+              "text": "creators",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ksya9pum",
+              "startMs": 840,
+              "endMs": 1260,
+              "text": "spend",
+              "highlighted": true
+            },
+            {
+              "id": "cap_t913mdm7",
+              "startMs": 1260,
+              "endMs": 1680,
+              "text": "hours",
+              "highlighted": true
+            },
+            {
+              "id": "cap_rtmmm3e0",
+              "startMs": 1680,
+              "endMs": 2100,
+              "text": "chopping",
+              "highlighted": true
+            },
+            {
+              "id": "cap_xwbjk0q9",
+              "startMs": 2100,
+              "endMs": 2520,
+              "text": "a",
+              "highlighted": true
+            },
+            {
+              "id": "cap_1cnoklw3",
+              "startMs": 2520,
+              "endMs": 2940,
+              "text": "single",
+              "highlighted": true
+            },
+            {
+              "id": "cap_sxix9ouy",
+              "startMs": 2940,
+              "endMs": 3360,
+              "text": "podcast",
+              "highlighted": true
+            },
+            {
+              "id": "cap_4kkvqzyh",
+              "startMs": 9000,
+              "endMs": 9420,
+              "text": "The",
+              "highlighted": true
+            },
+            {
+              "id": "cap_rn9hfqu9",
+              "startMs": 9420,
+              "endMs": 9840,
+              "text": "winning",
+              "highlighted": false
+            },
+            {
+              "id": "cap_mejk1kct",
+              "startMs": 9840,
+              "endMs": 10260,
+              "text": "move",
+              "highlighted": false
+            },
+            {
+              "id": "cap_1f2h41yb",
+              "startMs": 10260,
+              "endMs": 10680,
+              "text": "is",
+              "highlighted": true
+            },
+            {
+              "id": "cap_5zavv2y2",
+              "startMs": 10680,
+              "endMs": 11100,
+              "text": "identifying",
+              "highlighted": false
+            },
+            {
+              "id": "cap_8kd6kiio",
+              "startMs": 11100,
+              "endMs": 11520,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_7kc33wwh",
+              "startMs": 11520,
+              "endMs": 11940,
+              "text": "exact",
+              "highlighted": true
+            },
+            {
+              "id": "cap_x3b0jjbj",
+              "startMs": 11940,
+              "endMs": 12360,
+              "text": "moment",
+              "highlighted": false
+            },
+            {
+              "id": "cap_tx5xj3fa",
+              "startMs": 20000,
+              "endMs": 20420,
+              "text": "When",
+              "highlighted": true
+            },
+            {
+              "id": "cap_9lxo5rjs",
+              "startMs": 20420,
+              "endMs": 20840,
+              "text": "we",
+              "highlighted": false
+            },
+            {
+              "id": "cap_2rvo3kx4",
+              "startMs": 20840,
+              "endMs": 21260,
+              "text": "detect",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ww15ojr8",
+              "startMs": 21260,
+              "endMs": 21680,
+              "text": "emotion",
+              "highlighted": true
+            },
+            {
+              "id": "cap_xvtwgwba",
+              "startMs": 21680,
+              "endMs": 22100,
+              "text": "in",
+              "highlighted": false
+            },
+            {
+              "id": "cap_dfl7qbta",
+              "startMs": 22100,
+              "endMs": 22520,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_h6y3hyxc",
+              "startMs": 22520,
+              "endMs": 22940,
+              "text": "voice,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_xjpre3pg",
+              "startMs": 22940,
+              "endMs": 23360,
+              "text": "movement",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ukntfjhx",
+              "startMs": 33000,
+              "endMs": 33420,
+              "text": "Then",
+              "highlighted": true
+            },
+            {
+              "id": "cap_nub9qsp7",
+              "startMs": 33420,
+              "endMs": 33840,
+              "text": "we",
+              "highlighted": false
+            },
+            {
+              "id": "cap_mfqla4wi",
+              "startMs": 33840,
+              "endMs": 34260,
+              "text": "reframe",
+              "highlighted": false
+            },
+            {
+              "id": "cap_apqmxxg2",
+              "startMs": 34260,
+              "endMs": 34680,
+              "text": "for",
+              "highlighted": true
+            },
+            {
+              "id": "cap_kam5tbro",
+              "startMs": 34680,
+              "endMs": 35100,
+              "text": "vertical,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_nk5r9y1o",
+              "startMs": 35100,
+              "endMs": 35520,
+              "text": "burn",
+              "highlighted": false
+            },
+            {
+              "id": "cap_j09pcrf2",
+              "startMs": 35520,
+              "endMs": 35940,
+              "text": "in",
+              "highlighted": true
+            },
+            {
+              "id": "cap_0draqjss",
+              "startMs": 35940,
+              "endMs": 36360,
+              "text": "captions,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_45pgy7w6",
+              "startMs": 47000,
+              "endMs": 47420,
+              "text": "That",
+              "highlighted": true
+            },
+            {
+              "id": "cap_prt7jfjq",
+              "startMs": 47420,
+              "endMs": 47840,
+              "text": "is",
+              "highlighted": false
+            },
+            {
+              "id": "cap_sref5k24",
+              "startMs": 47840,
+              "endMs": 48260,
+              "text": "how",
+              "highlighted": false
+            },
+            {
+              "id": "cap_4oki9uuj",
+              "startMs": 48260,
+              "endMs": 48680,
+              "text": "one",
+              "highlighted": true
+            },
+            {
+              "id": "cap_v4qvv5mv",
+              "startMs": 48680,
+              "endMs": 49100,
+              "text": "long-form",
+              "highlighted": false
+            },
+            {
+              "id": "cap_8hko0lll",
+              "startMs": 49100,
+              "endMs": 49520,
+              "text": "video",
+              "highlighted": false
+            },
+            {
+              "id": "cap_atg8t2td",
+              "startMs": 49520,
+              "endMs": 49940,
+              "text": "becomes",
+              "highlighted": true
+            },
+            {
+              "id": "cap_7pa8dal8",
+              "startMs": 49940,
+              "endMs": 50360,
+              "text": "ten",
+              "highlighted": false
+            }
+          ],
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-14950000000?auto=format&fit=crop&w=900&q=80",
+          "favorite": false,
+          "socialPackage": {
+            "title": "Use Emotion to Lift Watch Time",
+            "postText": "Watch what happens when the hook lands immediately. Subscribe for more short-form strategy.",
+            "hashtags": [
+              "#viralclips",
+              "#contentstrategy",
+              "#shortformvideo",
+              "#creatorgrowth"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with the hook text overlay and keep captions bold.",
+              "youtubeShorts": "Use a curiosity title with a promise-driven CTA.",
+              "instagramReels": "Pair with a concise caption and save-worthy ending.",
+              "facebookReels": "Keep the CTA explicit and benefit-focused."
+            }
+          }
+        },
+        {
+          "id": "cand_7b73zbbx",
+          "title": "What Makes a Clip Rewatchable",
+          "summary": "AI-selected highlight with strong hook, motion, and conversion potential.",
+          "startMs": 33000,
+          "endMs": 78000,
+          "duration": 45,
+          "viralScore": 80,
+          "platforms": [
+            "tiktok",
+            "youtubeShorts"
+          ],
+          "badges": [
+            "Best CTA",
+            "High Retention"
+          ],
+          "hookText": "This editing move changes everything.",
+          "ctaText": "Comment if you want the full workflow",
+          "breakdown": {
+            "hook": 80,
+            "emotion": 72,
+            "clarity": 82,
+            "retention": 89,
+            "motion": 70,
+            "emphasis": 80,
+            "cta": 84,
+            "trend": 76,
+            "shareability": 90,
+            "replay": 76
+          },
+          "transcriptSegmentIds": [
+            "seg_8wzicfrs",
+            "seg_fdlhue5m",
+            "seg_zka6ynty"
+          ],
+          "projectId": "proj_hy34b1qj",
+          "aspectRatio": "9:16",
+          "captions": [
+            {
+              "id": "cap_2rck1e3d",
+              "startMs": 0,
+              "endMs": 420,
+              "text": "Most",
+              "highlighted": true
+            },
+            {
+              "id": "cap_p0aavyh1",
+              "startMs": 420,
+              "endMs": 840,
+              "text": "creators",
+              "highlighted": false
+            },
+            {
+              "id": "cap_m608bgvm",
+              "startMs": 840,
+              "endMs": 1260,
+              "text": "spend",
+              "highlighted": false
+            },
+            {
+              "id": "cap_h0ss0gxs",
+              "startMs": 1260,
+              "endMs": 1680,
+              "text": "hours",
+              "highlighted": true
+            },
+            {
+              "id": "cap_0pjxq8sm",
+              "startMs": 1680,
+              "endMs": 2100,
+              "text": "chopping",
+              "highlighted": false
+            },
+            {
+              "id": "cap_t87a6a37",
+              "startMs": 2100,
+              "endMs": 2520,
+              "text": "a",
+              "highlighted": false
+            },
+            {
+              "id": "cap_c2ds2nst",
+              "startMs": 2520,
+              "endMs": 2940,
+              "text": "single",
+              "highlighted": true
+            },
+            {
+              "id": "cap_bhseem9w",
+              "startMs": 2940,
+              "endMs": 3360,
+              "text": "podcast",
+              "highlighted": false
+            },
+            {
+              "id": "cap_1sqwulu5",
+              "startMs": 9000,
+              "endMs": 9420,
+              "text": "The",
+              "highlighted": true
+            },
+            {
+              "id": "cap_9q4k7j3t",
+              "startMs": 9420,
+              "endMs": 9840,
+              "text": "winning",
+              "highlighted": true
+            },
+            {
+              "id": "cap_0tssf2bh",
+              "startMs": 9840,
+              "endMs": 10260,
+              "text": "move",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ic1r5wmm",
+              "startMs": 10260,
+              "endMs": 10680,
+              "text": "is",
+              "highlighted": true
+            },
+            {
+              "id": "cap_k3jy8w8h",
+              "startMs": 10680,
+              "endMs": 11100,
+              "text": "identifying",
+              "highlighted": true
+            },
+            {
+              "id": "cap_m285uu6h",
+              "startMs": 11100,
+              "endMs": 11520,
+              "text": "the",
+              "highlighted": true
+            },
+            {
+              "id": "cap_dd9a4mhm",
+              "startMs": 11520,
+              "endMs": 11940,
+              "text": "exact",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ezdvyues",
+              "startMs": 11940,
+              "endMs": 12360,
+              "text": "moment",
+              "highlighted": true
+            },
+            {
+              "id": "cap_8sft5n6y",
+              "startMs": 20000,
+              "endMs": 20420,
+              "text": "When",
+              "highlighted": true
+            },
+            {
+              "id": "cap_lgymf4bw",
+              "startMs": 20420,
+              "endMs": 20840,
+              "text": "we",
+              "highlighted": false
+            },
+            {
+              "id": "cap_1ew2x8vh",
+              "startMs": 20840,
+              "endMs": 21260,
+              "text": "detect",
+              "highlighted": false
+            },
+            {
+              "id": "cap_rkunqwec",
+              "startMs": 21260,
+              "endMs": 21680,
+              "text": "emotion",
+              "highlighted": true
+            },
+            {
+              "id": "cap_qqr9dkyj",
+              "startMs": 21680,
+              "endMs": 22100,
+              "text": "in",
+              "highlighted": false
+            },
+            {
+              "id": "cap_znta3bql",
+              "startMs": 22100,
+              "endMs": 22520,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_4y6gbpc6",
+              "startMs": 22520,
+              "endMs": 22940,
+              "text": "voice,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_5tg2ci2d",
+              "startMs": 22940,
+              "endMs": 23360,
+              "text": "movement",
+              "highlighted": false
+            },
+            {
+              "id": "cap_iuetrhli",
+              "startMs": 33000,
+              "endMs": 33420,
+              "text": "Then",
+              "highlighted": true
+            },
+            {
+              "id": "cap_rimdi653",
+              "startMs": 33420,
+              "endMs": 33840,
+              "text": "we",
+              "highlighted": false
+            },
+            {
+              "id": "cap_2htnype9",
+              "startMs": 33840,
+              "endMs": 34260,
+              "text": "reframe",
+              "highlighted": false
+            },
+            {
+              "id": "cap_lupgly7o",
+              "startMs": 34260,
+              "endMs": 34680,
+              "text": "for",
+              "highlighted": true
+            },
+            {
+              "id": "cap_69mxjsp2",
+              "startMs": 34680,
+              "endMs": 35100,
+              "text": "vertical,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_b292xj5z",
+              "startMs": 35100,
+              "endMs": 35520,
+              "text": "burn",
+              "highlighted": false
+            },
+            {
+              "id": "cap_7ivhm3gl",
+              "startMs": 35520,
+              "endMs": 35940,
+              "text": "in",
+              "highlighted": true
+            },
+            {
+              "id": "cap_thh0in6z",
+              "startMs": 35940,
+              "endMs": 36360,
+              "text": "captions,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_985ffz1u",
+              "startMs": 47000,
+              "endMs": 47420,
+              "text": "That",
+              "highlighted": true
+            },
+            {
+              "id": "cap_fhzomol6",
+              "startMs": 47420,
+              "endMs": 47840,
+              "text": "is",
+              "highlighted": false
+            },
+            {
+              "id": "cap_wq9tgxgx",
+              "startMs": 47840,
+              "endMs": 48260,
+              "text": "how",
+              "highlighted": false
+            },
+            {
+              "id": "cap_lhaiytcj",
+              "startMs": 48260,
+              "endMs": 48680,
+              "text": "one",
+              "highlighted": true
+            },
+            {
+              "id": "cap_n6430hig",
+              "startMs": 48680,
+              "endMs": 49100,
+              "text": "long-form",
+              "highlighted": false
+            },
+            {
+              "id": "cap_y1amer7o",
+              "startMs": 49100,
+              "endMs": 49520,
+              "text": "video",
+              "highlighted": false
+            },
+            {
+              "id": "cap_x533wzc0",
+              "startMs": 49520,
+              "endMs": 49940,
+              "text": "becomes",
+              "highlighted": true
+            },
+            {
+              "id": "cap_90dsfh96",
+              "startMs": 49940,
+              "endMs": 50360,
+              "text": "ten",
+              "highlighted": false
+            }
+          ],
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-14960000000?auto=format&fit=crop&w=900&q=80",
+          "favorite": false,
+          "socialPackage": {
+            "title": "What Makes a Clip Rewatchable",
+            "postText": "This editing move changes everything. Comment if you want the full workflow.",
+            "hashtags": [
+              "#viralclips",
+              "#contentstrategy",
+              "#shortformvideo",
+              "#creatorgrowth"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with the hook text overlay and keep captions bold.",
+              "youtubeShorts": "Use a curiosity title with a promise-driven CTA.",
+              "instagramReels": "Pair with a concise caption and save-worthy ending.",
+              "facebookReels": "Keep the CTA explicit and benefit-focused."
+            }
+          }
+        },
+        {
+          "id": "cand_oq5myxyy",
+          "title": "Turn Long Form into 10 Shorts",
+          "summary": "AI-selected highlight with strong hook, motion, and conversion potential.",
+          "startMs": 38500,
+          "endMs": 98500,
+          "duration": 60,
+          "viralScore": 80,
+          "platforms": [
+            "tiktok",
+            "youtubeShorts",
+            "instagramReels"
+          ],
+          "badges": [
+            "Fast Pacing",
+            "Best for Shorts"
+          ],
+          "hookText": "Most people miss this retention trick.",
+          "ctaText": "Visit our site to automate your clips",
+          "breakdown": {
+            "hook": 87,
+            "emotion": 79,
+            "clarity": 77,
+            "retention": 80,
+            "motion": 77,
+            "emphasis": 87,
+            "cta": 67,
+            "trend": 83,
+            "shareability": 82,
+            "replay": 83
+          },
+          "transcriptSegmentIds": [
+            "seg_fdlhue5m",
+            "seg_zka6ynty",
+            "seg_jl92phmt"
+          ],
+          "projectId": "proj_hy34b1qj",
+          "aspectRatio": "9:16",
+          "captions": [
+            {
+              "id": "cap_r7n27d6f",
+              "startMs": 0,
+              "endMs": 420,
+              "text": "Most",
+              "highlighted": true
+            },
+            {
+              "id": "cap_a6qnaygw",
+              "startMs": 420,
+              "endMs": 840,
+              "text": "creators",
+              "highlighted": false
+            },
+            {
+              "id": "cap_181uai63",
+              "startMs": 840,
+              "endMs": 1260,
+              "text": "spend",
+              "highlighted": false
+            },
+            {
+              "id": "cap_5pyx5jcm",
+              "startMs": 1260,
+              "endMs": 1680,
+              "text": "hours",
+              "highlighted": true
+            },
+            {
+              "id": "cap_itmwg6kg",
+              "startMs": 1680,
+              "endMs": 2100,
+              "text": "chopping",
+              "highlighted": false
+            },
+            {
+              "id": "cap_rrclq723",
+              "startMs": 2100,
+              "endMs": 2520,
+              "text": "a",
+              "highlighted": false
+            },
+            {
+              "id": "cap_7hz4p85h",
+              "startMs": 2520,
+              "endMs": 2940,
+              "text": "single",
+              "highlighted": true
+            },
+            {
+              "id": "cap_33phnzzu",
+              "startMs": 2940,
+              "endMs": 3360,
+              "text": "podcast",
+              "highlighted": false
+            },
+            {
+              "id": "cap_y6q2qwru",
+              "startMs": 9000,
+              "endMs": 9420,
+              "text": "The",
+              "highlighted": true
+            },
+            {
+              "id": "cap_v2ew28kr",
+              "startMs": 9420,
+              "endMs": 9840,
+              "text": "winning",
+              "highlighted": false
+            },
+            {
+              "id": "cap_20qwrhdc",
+              "startMs": 9840,
+              "endMs": 10260,
+              "text": "move",
+              "highlighted": false
+            },
+            {
+              "id": "cap_6nicwael",
+              "startMs": 10260,
+              "endMs": 10680,
+              "text": "is",
+              "highlighted": true
+            },
+            {
+              "id": "cap_lgvr36xm",
+              "startMs": 10680,
+              "endMs": 11100,
+              "text": "identifying",
+              "highlighted": false
+            },
+            {
+              "id": "cap_qconq9he",
+              "startMs": 11100,
+              "endMs": 11520,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_mq5f0k7k",
+              "startMs": 11520,
+              "endMs": 11940,
+              "text": "exact",
+              "highlighted": true
+            },
+            {
+              "id": "cap_32tyth1m",
+              "startMs": 11940,
+              "endMs": 12360,
+              "text": "moment",
+              "highlighted": false
+            },
+            {
+              "id": "cap_oj3xvwyf",
+              "startMs": 20000,
+              "endMs": 20420,
+              "text": "When",
+              "highlighted": true
+            },
+            {
+              "id": "cap_epr2x2w8",
+              "startMs": 20420,
+              "endMs": 20840,
+              "text": "we",
+              "highlighted": true
+            },
+            {
+              "id": "cap_2zhn34ib",
+              "startMs": 20840,
+              "endMs": 21260,
+              "text": "detect",
+              "highlighted": true
+            },
+            {
+              "id": "cap_bvevsmgj",
+              "startMs": 21260,
+              "endMs": 21680,
+              "text": "emotion",
+              "highlighted": true
+            },
+            {
+              "id": "cap_5hk69ce0",
+              "startMs": 21680,
+              "endMs": 22100,
+              "text": "in",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ehixqu0k",
+              "startMs": 22100,
+              "endMs": 22520,
+              "text": "the",
+              "highlighted": true
+            },
+            {
+              "id": "cap_algseq6j",
+              "startMs": 22520,
+              "endMs": 22940,
+              "text": "voice,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_tluve5s7",
+              "startMs": 22940,
+              "endMs": 23360,
+              "text": "movement",
+              "highlighted": true
+            },
+            {
+              "id": "cap_lmk0fqsd",
+              "startMs": 33000,
+              "endMs": 33420,
+              "text": "Then",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ba5barg3",
+              "startMs": 33420,
+              "endMs": 33840,
+              "text": "we",
+              "highlighted": false
+            },
+            {
+              "id": "cap_z98lit5c",
+              "startMs": 33840,
+              "endMs": 34260,
+              "text": "reframe",
+              "highlighted": false
+            },
+            {
+              "id": "cap_peqrxi0n",
+              "startMs": 34260,
+              "endMs": 34680,
+              "text": "for",
+              "highlighted": true
+            },
+            {
+              "id": "cap_hd9p7rug",
+              "startMs": 34680,
+              "endMs": 35100,
+              "text": "vertical,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_7a4ud7ss",
+              "startMs": 35100,
+              "endMs": 35520,
+              "text": "burn",
+              "highlighted": false
+            },
+            {
+              "id": "cap_vuvcchhf",
+              "startMs": 35520,
+              "endMs": 35940,
+              "text": "in",
+              "highlighted": true
+            },
+            {
+              "id": "cap_kzsntl48",
+              "startMs": 35940,
+              "endMs": 36360,
+              "text": "captions,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_8i8l3hap",
+              "startMs": 47000,
+              "endMs": 47420,
+              "text": "That",
+              "highlighted": true
+            },
+            {
+              "id": "cap_z7yq31z7",
+              "startMs": 47420,
+              "endMs": 47840,
+              "text": "is",
+              "highlighted": false
+            },
+            {
+              "id": "cap_o3mjbhic",
+              "startMs": 47840,
+              "endMs": 48260,
+              "text": "how",
+              "highlighted": false
+            },
+            {
+              "id": "cap_8c2536q7",
+              "startMs": 48260,
+              "endMs": 48680,
+              "text": "one",
+              "highlighted": true
+            },
+            {
+              "id": "cap_48q3jx79",
+              "startMs": 48680,
+              "endMs": 49100,
+              "text": "long-form",
+              "highlighted": false
+            },
+            {
+              "id": "cap_pk03pgv1",
+              "startMs": 49100,
+              "endMs": 49520,
+              "text": "video",
+              "highlighted": false
+            },
+            {
+              "id": "cap_5cj9ceg1",
+              "startMs": 49520,
+              "endMs": 49940,
+              "text": "becomes",
+              "highlighted": true
+            },
+            {
+              "id": "cap_303pitd8",
+              "startMs": 49940,
+              "endMs": 50360,
+              "text": "ten",
+              "highlighted": false
+            }
+          ],
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-14970000000?auto=format&fit=crop&w=900&q=80",
+          "favorite": false,
+          "socialPackage": {
+            "title": "Turn Long Form into 10 Shorts",
+            "postText": "Most people miss this retention trick. Visit our site to automate your clips.",
+            "hashtags": [
+              "#viralclips",
+              "#contentstrategy",
+              "#shortformvideo",
+              "#creatorgrowth"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with the hook text overlay and keep captions bold.",
+              "youtubeShorts": "Use a curiosity title with a promise-driven CTA.",
+              "instagramReels": "Pair with a concise caption and save-worthy ending.",
+              "facebookReels": "Keep the CTA explicit and benefit-focused."
+            }
+          }
+        },
+        {
+          "id": "cand_2komi65j",
+          "title": "How to End with a CTA",
+          "summary": "AI-selected highlight with strong hook, motion, and conversion potential.",
+          "startMs": 44000,
+          "endMs": 59000,
+          "duration": 15,
+          "viralScore": 82,
+          "platforms": [
+            "tiktok",
+            "youtubeShorts",
+            "instagramReels",
+            "facebookReels"
+          ],
+          "badges": [
+            "Strong Hook",
+            "Best for Reels"
+          ],
+          "hookText": "This is where most creators lose the viewer.",
+          "ctaText": "Follow for more creator growth tactics",
+          "breakdown": {
+            "hook": 80,
+            "emotion": 86,
+            "clarity": 84,
+            "retention": 87,
+            "motion": 84,
+            "emphasis": 76,
+            "cta": 74,
+            "trend": 90,
+            "shareability": 89,
+            "replay": 72
+          },
+          "transcriptSegmentIds": [
+            "seg_zka6ynty",
+            "seg_jl92phmt",
+            "seg_0ayeb090"
+          ],
+          "projectId": "proj_hy34b1qj",
+          "aspectRatio": "9:16",
+          "captions": [
+            {
+              "id": "cap_nfx8po55",
+              "startMs": 0,
+              "endMs": 420,
+              "text": "Most",
+              "highlighted": true
+            },
+            {
+              "id": "cap_2s0b46dk",
+              "startMs": 420,
+              "endMs": 840,
+              "text": "creators",
+              "highlighted": false
+            },
+            {
+              "id": "cap_obczykcu",
+              "startMs": 840,
+              "endMs": 1260,
+              "text": "spend",
+              "highlighted": false
+            },
+            {
+              "id": "cap_3skrd8cb",
+              "startMs": 1260,
+              "endMs": 1680,
+              "text": "hours",
+              "highlighted": true
+            },
+            {
+              "id": "cap_nqkbyrl9",
+              "startMs": 1680,
+              "endMs": 2100,
+              "text": "chopping",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ax48fidd",
+              "startMs": 2100,
+              "endMs": 2520,
+              "text": "a",
+              "highlighted": false
+            },
+            {
+              "id": "cap_4x4duyfi",
+              "startMs": 2520,
+              "endMs": 2940,
+              "text": "single",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ck31o0o5",
+              "startMs": 2940,
+              "endMs": 3360,
+              "text": "podcast",
+              "highlighted": false
+            },
+            {
+              "id": "cap_xh8vuz1y",
+              "startMs": 9000,
+              "endMs": 9420,
+              "text": "The",
+              "highlighted": true
+            },
+            {
+              "id": "cap_5q28xk7q",
+              "startMs": 9420,
+              "endMs": 9840,
+              "text": "winning",
+              "highlighted": false
+            },
+            {
+              "id": "cap_z3prgi3x",
+              "startMs": 9840,
+              "endMs": 10260,
+              "text": "move",
+              "highlighted": false
+            },
+            {
+              "id": "cap_5lex07q5",
+              "startMs": 10260,
+              "endMs": 10680,
+              "text": "is",
+              "highlighted": true
+            },
+            {
+              "id": "cap_o0udgh3v",
+              "startMs": 10680,
+              "endMs": 11100,
+              "text": "identifying",
+              "highlighted": false
+            },
+            {
+              "id": "cap_71jsyxzs",
+              "startMs": 11100,
+              "endMs": 11520,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_nb27j03x",
+              "startMs": 11520,
+              "endMs": 11940,
+              "text": "exact",
+              "highlighted": true
+            },
+            {
+              "id": "cap_cmpvfprl",
+              "startMs": 11940,
+              "endMs": 12360,
+              "text": "moment",
+              "highlighted": false
+            },
+            {
+              "id": "cap_5jesnlze",
+              "startMs": 20000,
+              "endMs": 20420,
+              "text": "When",
+              "highlighted": true
+            },
+            {
+              "id": "cap_jaa1fv0a",
+              "startMs": 20420,
+              "endMs": 20840,
+              "text": "we",
+              "highlighted": false
+            },
+            {
+              "id": "cap_zcfb08ck",
+              "startMs": 20840,
+              "endMs": 21260,
+              "text": "detect",
+              "highlighted": false
+            },
+            {
+              "id": "cap_asphu1xy",
+              "startMs": 21260,
+              "endMs": 21680,
+              "text": "emotion",
+              "highlighted": true
+            },
+            {
+              "id": "cap_57eqnmii",
+              "startMs": 21680,
+              "endMs": 22100,
+              "text": "in",
+              "highlighted": false
+            },
+            {
+              "id": "cap_5jq4ltuc",
+              "startMs": 22100,
+              "endMs": 22520,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_x3rif1cq",
+              "startMs": 22520,
+              "endMs": 22940,
+              "text": "voice,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ez090f8k",
+              "startMs": 22940,
+              "endMs": 23360,
+              "text": "movement",
+              "highlighted": false
+            },
+            {
+              "id": "cap_lp19hdd2",
+              "startMs": 33000,
+              "endMs": 33420,
+              "text": "Then",
+              "highlighted": true
+            },
+            {
+              "id": "cap_vas2hd41",
+              "startMs": 33420,
+              "endMs": 33840,
+              "text": "we",
+              "highlighted": true
+            },
+            {
+              "id": "cap_8a2vlz8f",
+              "startMs": 33840,
+              "endMs": 34260,
+              "text": "reframe",
+              "highlighted": true
+            },
+            {
+              "id": "cap_wg8gueq3",
+              "startMs": 34260,
+              "endMs": 34680,
+              "text": "for",
+              "highlighted": true
+            },
+            {
+              "id": "cap_gvxpyqd2",
+              "startMs": 34680,
+              "endMs": 35100,
+              "text": "vertical,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_879yy920",
+              "startMs": 35100,
+              "endMs": 35520,
+              "text": "burn",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ja7g3mmm",
+              "startMs": 35520,
+              "endMs": 35940,
+              "text": "in",
+              "highlighted": true
+            },
+            {
+              "id": "cap_7y9dce0z",
+              "startMs": 35940,
+              "endMs": 36360,
+              "text": "captions,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_x0yf7acx",
+              "startMs": 47000,
+              "endMs": 47420,
+              "text": "That",
+              "highlighted": true
+            },
+            {
+              "id": "cap_xhfeusw7",
+              "startMs": 47420,
+              "endMs": 47840,
+              "text": "is",
+              "highlighted": false
+            },
+            {
+              "id": "cap_f66v9p61",
+              "startMs": 47840,
+              "endMs": 48260,
+              "text": "how",
+              "highlighted": false
+            },
+            {
+              "id": "cap_fdrh16t4",
+              "startMs": 48260,
+              "endMs": 48680,
+              "text": "one",
+              "highlighted": true
+            },
+            {
+              "id": "cap_entim67d",
+              "startMs": 48680,
+              "endMs": 49100,
+              "text": "long-form",
+              "highlighted": false
+            },
+            {
+              "id": "cap_g1ox4eh5",
+              "startMs": 49100,
+              "endMs": 49520,
+              "text": "video",
+              "highlighted": false
+            },
+            {
+              "id": "cap_jhbxvb02",
+              "startMs": 49520,
+              "endMs": 49940,
+              "text": "becomes",
+              "highlighted": true
+            },
+            {
+              "id": "cap_krp5ez5o",
+              "startMs": 49940,
+              "endMs": 50360,
+              "text": "ten",
+              "highlighted": false
+            }
+          ],
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-14980000000?auto=format&fit=crop&w=900&q=80",
+          "favorite": false,
+          "socialPackage": {
+            "title": "How to End with a CTA",
+            "postText": "This is where most creators lose the viewer. Follow for more creator growth tactics.",
+            "hashtags": [
+              "#viralclips",
+              "#contentstrategy",
+              "#shortformvideo",
+              "#creatorgrowth"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with the hook text overlay and keep captions bold.",
+              "youtubeShorts": "Use a curiosity title with a promise-driven CTA.",
+              "instagramReels": "Pair with a concise caption and save-worthy ending.",
+              "facebookReels": "Keep the CTA explicit and benefit-focused."
+            }
+          }
+        },
+        {
+          "id": "cand_6no7s1f1",
+          "title": "The Fastest Clip Repurposing Flow",
+          "summary": "AI-selected highlight with strong hook, motion, and conversion potential.",
+          "startMs": 49500,
+          "endMs": 79500,
+          "duration": 30,
+          "viralScore": 81,
+          "platforms": [
+            "tiktok",
+            "youtubeShorts"
+          ],
+          "badges": [
+            "High Emotion",
+            "Replay Value"
+          ],
+          "hookText": "Watch what happens when the hook lands immediately.",
+          "ctaText": "Subscribe for more short-form strategy",
+          "breakdown": {
+            "hook": 87,
+            "emotion": 73,
+            "clarity": 79,
+            "retention": 94,
+            "motion": 71,
+            "emphasis": 83,
+            "cta": 81,
+            "trend": 78,
+            "shareability": 81,
+            "replay": 79
+          },
+          "transcriptSegmentIds": [
+            "seg_8wzicfrs",
+            "seg_fdlhue5m",
+            "seg_zka6ynty"
+          ],
+          "projectId": "proj_hy34b1qj",
+          "aspectRatio": "9:16",
+          "captions": [
+            {
+              "id": "cap_d0ryedl4",
+              "startMs": 0,
+              "endMs": 420,
+              "text": "Most",
+              "highlighted": true
+            },
+            {
+              "id": "cap_h2vw05ql",
+              "startMs": 420,
+              "endMs": 840,
+              "text": "creators",
+              "highlighted": false
+            },
+            {
+              "id": "cap_dynhe9o8",
+              "startMs": 840,
+              "endMs": 1260,
+              "text": "spend",
+              "highlighted": false
+            },
+            {
+              "id": "cap_wz5t3fso",
+              "startMs": 1260,
+              "endMs": 1680,
+              "text": "hours",
+              "highlighted": true
+            },
+            {
+              "id": "cap_uq2683vr",
+              "startMs": 1680,
+              "endMs": 2100,
+              "text": "chopping",
+              "highlighted": false
+            },
+            {
+              "id": "cap_t2zsf3v5",
+              "startMs": 2100,
+              "endMs": 2520,
+              "text": "a",
+              "highlighted": false
+            },
+            {
+              "id": "cap_domldob0",
+              "startMs": 2520,
+              "endMs": 2940,
+              "text": "single",
+              "highlighted": true
+            },
+            {
+              "id": "cap_3i5wrecj",
+              "startMs": 2940,
+              "endMs": 3360,
+              "text": "podcast",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ge7abqeo",
+              "startMs": 9000,
+              "endMs": 9420,
+              "text": "The",
+              "highlighted": true
+            },
+            {
+              "id": "cap_o4m2mryo",
+              "startMs": 9420,
+              "endMs": 9840,
+              "text": "winning",
+              "highlighted": false
+            },
+            {
+              "id": "cap_l5olty0d",
+              "startMs": 9840,
+              "endMs": 10260,
+              "text": "move",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ao48rnly",
+              "startMs": 10260,
+              "endMs": 10680,
+              "text": "is",
+              "highlighted": true
+            },
+            {
+              "id": "cap_1lpqqc9h",
+              "startMs": 10680,
+              "endMs": 11100,
+              "text": "identifying",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ml6f7yj6",
+              "startMs": 11100,
+              "endMs": 11520,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ud47c4j7",
+              "startMs": 11520,
+              "endMs": 11940,
+              "text": "exact",
+              "highlighted": true
+            },
+            {
+              "id": "cap_hz08r67l",
+              "startMs": 11940,
+              "endMs": 12360,
+              "text": "moment",
+              "highlighted": false
+            },
+            {
+              "id": "cap_jq9qg8ck",
+              "startMs": 20000,
+              "endMs": 20420,
+              "text": "When",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ard86b1n",
+              "startMs": 20420,
+              "endMs": 20840,
+              "text": "we",
+              "highlighted": false
+            },
+            {
+              "id": "cap_tepuz0ke",
+              "startMs": 20840,
+              "endMs": 21260,
+              "text": "detect",
+              "highlighted": false
+            },
+            {
+              "id": "cap_bct1q3qb",
+              "startMs": 21260,
+              "endMs": 21680,
+              "text": "emotion",
+              "highlighted": true
+            },
+            {
+              "id": "cap_6ammlrn4",
+              "startMs": 21680,
+              "endMs": 22100,
+              "text": "in",
+              "highlighted": false
+            },
+            {
+              "id": "cap_4qci9w6n",
+              "startMs": 22100,
+              "endMs": 22520,
+              "text": "the",
+              "highlighted": false
+            },
+            {
+              "id": "cap_ddsai5ou",
+              "startMs": 22520,
+              "endMs": 22940,
+              "text": "voice,",
+              "highlighted": true
+            },
+            {
+              "id": "cap_qc3w145i",
+              "startMs": 22940,
+              "endMs": 23360,
+              "text": "movement",
+              "highlighted": false
+            },
+            {
+              "id": "cap_bzaarf4p",
+              "startMs": 33000,
+              "endMs": 33420,
+              "text": "Then",
+              "highlighted": true
+            },
+            {
+              "id": "cap_33u5o4uc",
+              "startMs": 33420,
+              "endMs": 33840,
+              "text": "we",
+              "highlighted": false
+            },
+            {
+              "id": "cap_7sosdq7r",
+              "startMs": 33840,
+              "endMs": 34260,
+              "text": "reframe",
+              "highlighted": false
+            },
+            {
+              "id": "cap_jvn7euq4",
+              "startMs": 34260,
+              "endMs": 34680,
+              "text": "for",
+              "highlighted": true
+            },
+            {
+              "id": "cap_j00da9dm",
+              "startMs": 34680,
+              "endMs": 35100,
+              "text": "vertical,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_0ic7ex3k",
+              "startMs": 35100,
+              "endMs": 35520,
+              "text": "burn",
+              "highlighted": false
+            },
+            {
+              "id": "cap_27d5pwkk",
+              "startMs": 35520,
+              "endMs": 35940,
+              "text": "in",
+              "highlighted": true
+            },
+            {
+              "id": "cap_geokwu15",
+              "startMs": 35940,
+              "endMs": 36360,
+              "text": "captions,",
+              "highlighted": false
+            },
+            {
+              "id": "cap_1198ctbo",
+              "startMs": 47000,
+              "endMs": 47420,
+              "text": "That",
+              "highlighted": true
+            },
+            {
+              "id": "cap_zlxbjdzm",
+              "startMs": 47420,
+              "endMs": 47840,
+              "text": "is",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ce8zmey8",
+              "startMs": 47840,
+              "endMs": 48260,
+              "text": "how",
+              "highlighted": true
+            },
+            {
+              "id": "cap_svmeiywg",
+              "startMs": 48260,
+              "endMs": 48680,
+              "text": "one",
+              "highlighted": true
+            },
+            {
+              "id": "cap_ijjddkox",
+              "startMs": 48680,
+              "endMs": 49100,
+              "text": "long-form",
+              "highlighted": true
+            },
+            {
+              "id": "cap_st6ckla9",
+              "startMs": 49100,
+              "endMs": 49520,
+              "text": "video",
+              "highlighted": true
+            },
+            {
+              "id": "cap_vt996uff",
+              "startMs": 49520,
+              "endMs": 49940,
+              "text": "becomes",
+              "highlighted": true
+            },
+            {
+              "id": "cap_cs5zj1b2",
+              "startMs": 49940,
+              "endMs": 50360,
+              "text": "ten",
+              "highlighted": true
+            }
+          ],
+          "exportUrl": "/samples/export-demo.mp4",
+          "thumbnailUrl": "https://images.unsplash.com/photo-14990000000?auto=format&fit=crop&w=900&q=80",
+          "favorite": false,
+          "socialPackage": {
+            "title": "The Fastest Clip Repurposing Flow",
+            "postText": "Watch what happens when the hook lands immediately. Subscribe for more short-form strategy.",
+            "hashtags": [
+              "#viralclips",
+              "#contentstrategy",
+              "#shortformvideo",
+              "#creatorgrowth"
+            ],
+            "platformSuggestion": {
+              "tiktok": "Lead with the hook text overlay and keep captions bold.",
+              "youtubeShorts": "Use a curiosity title with a promise-driven CTA.",
+              "instagramReels": "Pair with a concise caption and save-worthy ending.",
+              "facebookReels": "Keep the CTA explicit and benefit-focused."
+            }
+          }
+        }
+      ],
+      "compareTopClipIds": [
+        "cand_586w7wh4",
+        "cand_harq0wha",
+        "cand_jdhfazmt"
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job_p8xztii5",
+      "projectId": "proj_fq7d9548",
+      "clipId": "clip_1h29nl8t",
+      "type": "export",
+      "status": "completed",
+      "progress": 100,
+      "createdAt": "2026-03-19T21:17:38.756Z",
+      "updatedAt": "2026-03-19T21:17:44.945Z",
+      "outputUrl": "/uploads/exports/proj_fq7d9548-clip_1h29nl8t-export_19s6co3f.mp4"
+    },
+    {
+      "id": "job_g2tmslgf",
+      "projectId": "proj_fq7d9548",
+      "clipId": "clip_1h29nl8t",
+      "type": "export",
+      "status": "failed",
+      "progress": 0,
+      "createdAt": "2026-03-19T21:15:30.751Z",
+      "updatedAt": "2026-03-19T21:15:31.696Z",
+      "error": "ffmpeg version 6.1.1-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2023 the FFmpeg developers\n  built with Apple clang version 11.0.0 (clang-1100.0.33.17)\n  configuration: --cc=/usr/bin/clang --prefix=/opt/ffmpeg --extra-version=tessus --enable-avisynth --enable-fontconfig --enable-gpl --enable-libaom --enable-libass --enable-libbluray --enable-libdav1d --enable-libfreetype --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libmysofa --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvmaf --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-version3 --pkg-config-flags=--static --disable-ffplay\n  libavutil      58. 29.100 / 58. 29.100\n  libavcodec     60. 31.102 / 60. 31.102\n  libavformat    60. 16.100 / 60. 16.100\n  libavdevice    60.  3.100 / 60.  3.100\n  libavfilter     9. 12.100 /  9. 12.100\n  libswscale      7.  5.100 /  7.  5.100\n  libswresample   4. 12.100 /  4. 12.100\n  libpostproc    57.  3.100 / 57.  3.100\nInput #0, lavfi, from 'testsrc2=size=1080x1080:rate=30:duration=30':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #0:0: Video: wrapped_avframe, yuv420p, 1080x1080 [SAR 1:1 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nInput #1, lavfi, from 'anullsrc=r=48000:cl=stereo':\n  Duration: N/A, start: 0.000000, bitrate: 768 kb/s\n  Stream #1:0: Audio: pcm_u8, 48000 Hz, stereo, u8, 768 kb/s\n[AVFilterGraph @ 0x7fec09d09000] No such filter: 'drawtext'\n[vost#0:0/libx264 @ 0x7fec09d07d80] Error initializing a simple filtergraph\nError opening output file /Users/tes/clipforge-ai/public/uploads/exports/proj_fq7d9548-clip_1h29nl8t-export_lwivfeeo.mp4.\nError opening output files: Filter not found\n"
+    },
+    {
+      "id": "job_xm60fp6e",
+      "projectId": "proj_fq7d9548",
+      "clipId": "clip_1h29nl8t",
+      "type": "export",
+      "status": "failed",
+      "progress": 0,
+      "createdAt": "2026-03-19T21:14:39.742Z",
+      "updatedAt": "2026-03-19T21:14:40.722Z",
+      "error": "ffmpeg version 6.1.1-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2023 the FFmpeg developers\n  built with Apple clang version 11.0.0 (clang-1100.0.33.17)\n  configuration: --cc=/usr/bin/clang --prefix=/opt/ffmpeg --extra-version=tessus --enable-avisynth --enable-fontconfig --enable-gpl --enable-libaom --enable-libass --enable-libbluray --enable-libdav1d --enable-libfreetype --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libmysofa --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvmaf --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-version3 --pkg-config-flags=--static --disable-ffplay\n  libavutil      58. 29.100 / 58. 29.100\n  libavcodec     60. 31.102 / 60. 31.102\n  libavformat    60. 16.100 / 60. 16.100\n  libavdevice    60.  3.100 / 60.  3.100\n  libavfilter     9. 12.100 /  9. 12.100\n  libswscale      7.  5.100 /  7.  5.100\n  libswresample   4. 12.100 /  4. 12.100\n  libpostproc    57.  3.100 / 57.  3.100\nInput #0, lavfi, from 'testsrc2=size=1080x1080:rate=30:duration=30':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #0:0: Video: wrapped_avframe, yuv420p, 1080x1080 [SAR 1:1 DAR 1:1], 30 fps, 30 tbr, 30 tbn\nInput #1, lavfi, from 'anullsrc=r=48000:cl=stereo':\n  Duration: N/A, start: 0.000000, bitrate: 768 kb/s\n  Stream #1:0: Audio: pcm_u8, 48000 Hz, stereo, u8, 768 kb/s\n[AVFilterGraph @ 0x7fc1e11085c0] No such filter: 'drawtext'\n[vost#0:0/libx264 @ 0x7fc1e1107340] Error initializing a simple filtergraph\nError opening output file /Users/tes/clipforge-ai/public/uploads/exports/proj_fq7d9548-clip_1h29nl8t-export_l31gtupa.mp4.\nError opening output files: Filter not found\n"
+    },
+    {
+      "id": "job_d4tx6k35",
+      "projectId": "proj_fq7d9548",
+      "clipId": "clip_1h29nl8t",
+      "type": "export",
+      "status": "failed",
+      "progress": 0,
+      "createdAt": "2026-03-19T21:12:41.955Z",
+      "updatedAt": "2026-03-19T21:12:44.351Z",
+      "error": "ffmpeg version 6.1.1-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2023 the FFmpeg developers\n  built with Apple clang version 11.0.0 (clang-1100.0.33.17)\n  configuration: --cc=/usr/bin/clang --prefix=/opt/ffmpeg --extra-version=tessus --enable-avisynth --enable-fontconfig --enable-gpl --enable-libaom --enable-libass --enable-libbluray --enable-libdav1d --enable-libfreetype --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libmysofa --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvmaf --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-version3 --pkg-config-flags=--static --disable-ffplay\n  libavutil      58. 29.100 / 58. 29.100\n  libavcodec     60. 31.102 / 60. 31.102\n  libavformat    60. 16.100 / 60. 16.100\n  libavdevice    60.  3.100 / 60.  3.100\n  libavfilter     9. 12.100 /  9. 12.100\n  libswscale      7.  5.100 /  7.  5.100\n  libswresample   4. 12.100 /  4. 12.100\n  libpostproc    57.  3.100 / 57.  3.100\n[Parsed_testsrc2_0 @ 0x7feacd1040c0] Unable to parse option value \"NaN\" as duration\n[Parsed_testsrc2_0 @ 0x7feacd1040c0] Error setting option duration to value NaN.\n[AVFilterGraph @ 0x7feacd014480] Error processing filtergraph: Invalid argument\n[in#0 @ 0x7feacd013e00] Error opening input: Invalid argument\nError opening input file testsrc2=size=1080x1080:rate=30:duration=NaN.\nError opening input files: Invalid argument\n"
+    },
+    {
+      "id": "job_9e5e9ly1",
+      "projectId": "proj_fq7d9548",
+      "type": "analysis",
+      "status": "completed",
+      "progress": 100,
+      "createdAt": "2026-03-19T19:57:47.654Z",
+      "updatedAt": "2026-03-19T19:57:47.654Z"
+    },
+    {
+      "id": "job_mofiya1v",
+      "projectId": "proj_fq7d9548",
+      "type": "analysis",
+      "status": "generating",
+      "progress": 60,
+      "createdAt": "2026-03-19T19:57:47.641Z",
+      "updatedAt": "2026-03-19T19:57:47.641Z"
+    },
+    {
+      "id": "job_nrekzizq",
+      "projectId": "proj_fq7d9548",
+      "type": "analysis",
+      "status": "analyzing",
+      "progress": 25,
+      "createdAt": "2026-03-19T19:57:47.630Z",
+      "updatedAt": "2026-03-19T19:57:47.630Z"
+    },
+    {
+      "id": "job_tm1xhgj4",
+      "projectId": "proj_fq7d9548",
+      "type": "analysis",
+      "status": "queued",
+      "progress": 0,
+      "createdAt": "2026-03-19T19:57:47.624Z",
+      "updatedAt": "2026-03-19T19:57:47.624Z"
+    },
+    {
+      "id": "job_12uczdei",
+      "projectId": "proj_hy34b1qj",
+      "type": "analysis",
+      "status": "completed",
+      "progress": 100,
+      "createdAt": "2026-03-19T19:48:18.733Z",
+      "updatedAt": "2026-03-19T19:51:18.733Z"
+    },
+    {
+      "id": "job_ei3uf7lp",
+      "projectId": "proj_hy34b1qj",
+      "type": "export",
+      "status": "completed",
+      "progress": 100,
+      "createdAt": "2026-03-19T19:51:18.733Z",
+      "updatedAt": "2026-03-19T19:53:18.733Z"
+    }
+  ]
+}

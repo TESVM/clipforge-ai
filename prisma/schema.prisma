@@ -1,0 +1,165 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum ProjectStatus {
+  queued
+  analyzing
+  generating
+  completed
+  failed
+}
+
+enum SourceType {
+  youtube
+  upload
+  web
+}
+
+enum ClipAspectRatio {
+  vertical
+  square
+  widescreen
+}
+
+model User {
+  id            String             @id @default(cuid())
+  name          String?
+  email         String             @unique
+  passwordHash  String?
+  image         String?
+  createdAt     DateTime           @default(now())
+  updatedAt     DateTime           @updatedAt
+  projects      Project[]
+  subscriptions SubscriptionPlan[]
+}
+
+model SubscriptionPlan {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tier        String
+  status      String
+  stripePrice String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Project {
+  id                String              @id @default(cuid())
+  userId            String
+  user              User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title             String
+  description       String
+  status            ProjectStatus       @default(queued)
+  sourceType        SourceType
+  sourceUrl         String?
+  targetPlatforms   String[]
+  targetDurations   Int[]
+  createdAt         DateTime            @default(now())
+  updatedAt         DateTime            @updatedAt
+  sourceVideo       SourceVideo?
+  transcript        TranscriptSegment[]
+  clipCandidates    ClipCandidate[]
+  generatedClips    GeneratedClip[]
+  exportJobs        ExportJob[]
+}
+
+model SourceVideo {
+  id          String    @id @default(cuid())
+  projectId   String    @unique
+  project     Project   @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  sourceType  SourceType
+  sourceUrl   String?
+  fileName    String?
+  mimeType    String?
+  durationSec Int       @default(0)
+  width       Int?
+  height      Int?
+  storagePath String
+  createdAt   DateTime  @default(now())
+}
+
+model TranscriptSegment {
+  id         String   @id @default(cuid())
+  projectId  String
+  project    Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  startMs    Int
+  endMs      Int
+  text       String   @db.Text
+  speaker    String
+  emphasis   Int
+  emotion    Int
+  keywords   String[]
+  createdAt  DateTime @default(now())
+}
+
+model ClipCandidate {
+  id                   String   @id @default(cuid())
+  projectId            String
+  project              Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  title                String
+  summary              String   @db.Text
+  startMs              Int
+  endMs                Int
+  duration             Int
+  viralScore           Int
+  platforms            String[]
+  badges               String[]
+  hookText             String
+  ctaText              String
+  transcriptSegmentIds String[]
+  metadata             Json
+  createdAt            DateTime @default(now())
+}
+
+model GeneratedClip {
+  id            String          @id @default(cuid())
+  projectId     String
+  project       Project         @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  candidateId   String?
+  title         String
+  summary       String          @db.Text
+  startMs       Int
+  endMs         Int
+  duration      Int
+  viralScore    Int
+  aspectRatio   ClipAspectRatio @default(vertical)
+  favorite      Boolean         @default(false)
+  exportUrl     String
+  thumbnailUrl  String
+  hookText      String
+  ctaText       String
+  badges        String[]
+  platforms     String[]
+  captions      Json
+  socialPackage Json
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+}
+
+model TrendProfile {
+  id          String   @id @default(cuid())
+  platform    String   @unique
+  weights     Json
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model ExportJob {
+  id          String        @id @default(cuid())
+  projectId   String
+  project     Project       @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  clipId      String?
+  status      ProjectStatus @default(queued)
+  preset      String
+  outputPath  String?
+  metadata    Json
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+}

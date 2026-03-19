@@ -1,0 +1,10 @@
+.next
+node_modules
+.env
+coverage
+dist
+prisma/dev.db
+public/uploads/*
+!public/uploads/.gitkeep
+public/uploads/exports/*
+!public/uploads/exports/.gitkeep
